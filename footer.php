@@ -86,13 +86,18 @@
 		<script src="assets/plugins/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
 		<script src="assets/plugins/fullcalendar/fullcalendar/fullcalendar.js"></script>
 		<script src="assets/js/index.js"></script>
-
-		
 		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+
+		<!-- JAVASCRIPTS PAGINA DE TABELAS -->
+		<script type="text/javascript" src="assets/plugins/select2/select2.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/DataTables/media/js/jquery.dataTables.min.js"></script>
+		<script src="assets/js/table-data.js"></script>
+		<!-- end: JAVASCRIPTS PAGINA DE TABELAS -->
+
 		<script>
 			jQuery(document).ready(function() {
 				Main.init();
-				Index.init();
+				TableData.init();
 			});
 		</script>
 	</body>

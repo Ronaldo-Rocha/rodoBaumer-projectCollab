@@ -35,7 +35,9 @@
 		<link rel="stylesheet" href="assets/plugins/bootstrap-social-buttons/social-buttons-3.css">
 		<link rel="stylesheet" href="assets/plugins/ladda-bootstrap/dist/ladda-themeless.min.css">
 		<link rel="stylesheet" href="assets/plugins/bootstrap-switch/static/stylesheets/bootstrap-switch.css">
-		
+		<!-- TABLE PAGE CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/plugins/select2/select2.css" />
+		<link rel="stylesheet" href="assets/plugins/DataTables/media/css/DT_bootstrap.css" />
 
 		<!--[if IE 7]>
 		<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome-ie7.min.css">
@@ -60,7 +62,7 @@
 					</button>
 					<!-- end: RESPONSIVE MENU TOGGLER -->
 					<!-- start: LOGO -->
-					<a class="navbar-brand" href="index.html">
+					<a class="navbar-brand" href="index.php">
 						<div class="">
 							<img src="assets/imgRodo/rodo_panel.jpeg" alt="" class="logo-rodo">
 						</div>
@@ -124,13 +126,8 @@
 					<!-- start: MAIN NAVIGATION MENU -->
 					<ul class="main-navigation-menu">
 						<li class="active open">
-							<a href="index.php"><i class="clip-home-3"></i>
-								<span class="title"> Painel de controle </span><span class="selected"></span>
-							</a>
-						</li>
-						<li class="">
-							<a href="list_users.php"><i class="clip-home-3"></i>
-								<span class="title">Usuários </span><span class="selected"></span>
+							<a href="index.php"><i class="fa fa-home"></i>
+								<span class="title"> Dashboard </span><span class="selected"></span>
 							</a>
 						</li>
 						<li>
@@ -146,39 +143,10 @@
 								</li>
 							</ul>
 						</li>
-						<li>
-							<a href="javascript:void(0)"><i class="clip-screen"></i>
-								<span class="title"> Layouts </span><i class="icon-arrow"></i>
-								<span class="selected"></span>
+						<li class="">
+							<a href="list_users.php"><i class="fa fa-users"></i>
+								<span class="title">Usuários </span><span class="selected"></span>
 							</a>
-							<ul class="sub-menu">
-								<li>
-									<a href="layouts_horizontal_menu1.html">
-										<span class="title"> Horizontal Menu </span>
-										<span class="badge badge-new">new</span>
-									</a>
-								</li>
-								<li>
-									<a href="layouts_sidebar_closed.html">
-										<span class="title"> Sidebar Closed </span>
-									</a>
-								</li>
-								<li>
-									<a href="layouts_boxed_layout.html">
-										<span class="title"> Boxed Layout </span>
-									</a>
-								</li>
-								<li>
-									<a href="layouts_footer_fixed.html">
-										<span class="title"> Footer Fixed </span>
-									</a>
-								</li>
-								<li>
-									<a href="../clip-one-rtl/index.html">
-										<span class="title"> RTL Version </span>
-									</a>
-								</li>
-							</ul>
 						</li>
 					</ul>
 					<!-- end: MAIN NAVIGATION MENU -->

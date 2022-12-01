@@ -1,310 +1,459 @@
 <?php
-	include 'header.php';
+include 'header.php';
 ?>
-			<!-- start: PAGE -->
-			<div class="main-content">
-				<div class="container">
-					<!-- start: PAGE HEADER -->
-					<div class="row">
-						<div class="col-sm-12">
-							<!-- start: PAGE TITLE & BREADCRUMB -->
-							<ol class="breadcrumb">
-								<li>
-									<i class="clip-file"></i>
-									<a href="#">
-										Home
-									</a>
-								</li>
-								<li class="active">
-									RH
-								</li>
-								<li class="active">
-									Funcionários
-								</li>
-							</ol>
-							<div class="page-header">
-								<h1>Funcionários Cadastrados <small>todos os funcionários cadastrados</small></h1>
-							</div>
-							<!-- end: PAGE TITLE & BREADCRUMB -->
-						</div>
-					</div>    
-					<!-- end: PAGE HEADER -->
-					<!-- start: PAGE CONTENT -->
-					<div class="row">
-						<div class="col-md-12">
-							<!-- start: TABLE WITH IMAGES PANEL -->
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<i class="fa fa-external-link-square"></i>
-									Table with images
-									<div class="panel-tools">
-										<a class="btn btn-xs btn-green tooltips" href="cad_employ.php" data-original-title="Cadastrar Funcionário" data-placement="top"><i class="fa fa-plus"></i>
-										</a>
-										<a class="btn btn-xs btn-link panel-collapse collapses" href="#">
-										</a>
-									</div>
-								</div>
-								<div class="panel-body">
-									<table class="table table-striped table-bordered table-hover" id="sample-table-2">
-										<thead>
-											<tr>
-												<th class="center">
-												<div class="checkbox-table">
-													<label>
-														<input type="checkbox" class="flat-grey">
-													</label>
-												</div></th>
-												<th class="center">Photo</th>
-												<th>Full Name</th>
-												<th class="hidden-xs">Role</th>
-												<th class="hidden-xs">Email</th>
-												<th class="hidden-xs">Phone</th>
-												<th></th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td class="center">
-												<div class="checkbox-table">
-													<label>
-														<input type="checkbox" class="flat-grey">
-													</label>
-												</div></td>
-												<td class="center"><img src="assets/images/avatar-1.jpg" alt="image"/></td>
-												<td>Peter Clark</td>
-												<td class="hidden-xs">UI Designer</td>
-												<td class="hidden-xs">
-												<a href="#" rel="nofollow" target="_blank">
-													peter@example.com
-												</a></td>
-												<td class="hidden-xs">(641)-734-4763</td>
-												<td class="center">
-												<div class="visible-md visible-lg hidden-sm hidden-xs">
-													<a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Edit"><i class="fa fa-edit"></i></a>
-													<a href="#" class="btn btn-xs btn-green tooltips" data-placement="top" data-original-title="Share"><i class="fa fa-share"></i></a>
-													<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Remove"><i class="fa fa-times fa fa-white"></i></a>
-												</div>
-												<div class="visible-xs visible-sm hidden-md hidden-lg">
-													<div class="btn-group">
-														<a class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" href="#">
-															<i class="fa fa-cog"></i> <span class="caret"></span>
-														</a>
-														<ul role="menu" class="dropdown-menu pull-right">
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-edit"></i> Edit
-																</a>
-															</li>
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-share"></i> Share
-																</a>
-															</li>
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-times"></i> Remove
-																</a>
-															</li>
-														</ul>
-													</div>
-												</div></td>
-											</tr>
-											<tr>
-												<td class="center">
-												<div class="checkbox-table">
-													<label>
-														<input type="checkbox" class="flat-grey">
-													</label>
-												</div></td>
-												<td class="center"><img src="assets/images/avatar-2.jpg" alt="image"/></td>
-												<td>Nicole Bell</td>
-												<td class="hidden-xs">Content Designer</td>
-												<td class="hidden-xs">
-												<a href="#" rel="nofollow" target="_blank">
-													nicole@example.com
-												</a></td>
-												<td class="hidden-xs">(741)-034-4573</td>
-												<td class="center">
-												<div class="visible-md visible-lg hidden-sm hidden-xs">
-													<a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Edit"><i class="fa fa-edit"></i></a>
-													<a href="#" class="btn btn-xs btn-green tooltips" data-placement="top" data-original-title="Share"><i class="fa fa-share"></i></a>
-													<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Remove"><i class="fa fa-times fa fa-white"></i></a>
-												</div>
-												<div class="visible-xs visible-sm hidden-md hidden-lg">
-													<div class="btn-group">
-														<a class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" href="#">
-															<i class="fa fa-cog"></i> <span class="caret"></span>
-														</a>
-														<ul role="menu" class="dropdown-menu pull-right">
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-edit"></i> Edit
-																</a>
-															</li>
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-share"></i> Share
-																</a>
-															</li>
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-times"></i> Remove
-																</a>
-															</li>
-														</ul>
-													</div>
-												</div></td>
-											</tr>
-											<tr>
-												<td class="center">
-												<div class="checkbox-table">
-													<label>
-														<input type="checkbox" class="flat-grey">
-													</label>
-												</div></td>
-												<td class="center"><img src="assets/images/avatar-3.jpg" alt="image"/></td>
-												<td>Steven Thompson</td>
-												<td class="hidden-xs">Visual Designer</td>
-												<td class="hidden-xs">
-												<a href="#" rel="nofollow" target="_blank">
-													steven@example.com
-												</a></td>
-												<td class="hidden-xs">(471)-543-4073</td>
-												<td class="center">
-												<div class="visible-md visible-lg hidden-sm hidden-xs">
-													<a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Edit"><i class="fa fa-edit"></i></a>
-													<a href="#" class="btn btn-xs btn-green tooltips" data-placement="top" data-original-title="Share"><i class="fa fa-share"></i></a>
-													<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Remove"><i class="fa fa-times fa fa-white"></i></a>
-												</div>
-												<div class="visible-xs visible-sm hidden-md hidden-lg">
-													<div class="btn-group">
-														<a class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" href="#">
-															<i class="fa fa-cog"></i> <span class="caret"></span>
-														</a>
-														<ul role="menu" class="dropdown-menu pull-right">
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-edit"></i> Edit
-																</a>
-															</li>
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-share"></i> Share
-																</a>
-															</li>
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-times"></i> Remove
-																</a>
-															</li>
-														</ul>
-													</div>
-												</div></td>
-											</tr>
-											<tr>
-												<td class="center">
-												<div class="checkbox-table">
-													<label>
-														<input type="checkbox" class="flat-grey">
-													</label>
-												</div></td>
-												<td class="center"><img src="assets/images/avatar-4.jpg" alt="image"/></td>
-												<td>Ella Patterson</td>
-												<td class="hidden-xs">Web Editor</td>
-												<td class="hidden-xs">
-												<a href="#" rel="nofollow" target="_blank">
-													ella@example.com
-												</a></td>
-												<td class="hidden-xs">(799)-994-9999</td>
-												<td class="center">
-												<div class="visible-md visible-lg hidden-sm hidden-xs">
-													<a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Edit"><i class="fa fa-edit"></i></a>
-													<a href="#" class="btn btn-xs btn-green tooltips" data-placement="top" data-original-title="Share"><i class="fa fa-share"></i></a>
-													<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Remove"><i class="fa fa-times fa fa-white"></i></a>
-												</div>
-												<div class="visible-xs visible-sm hidden-md hidden-lg">
-													<div class="btn-group">
-														<a class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" href="#">
-															<i class="fa fa-cog"></i> <span class="caret"></span>
-														</a>
-														<ul role="menu" class="dropdown-menu pull-right">
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-edit"></i> Edit
-																</a>
-															</li>
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-share"></i> Share
-																</a>
-															</li>
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-times"></i> Remove
-																</a>
-															</li>
-														</ul>
-													</div>
-												</div></td>
-											</tr>
-											<tr>
-												<td class="center">
-												<div class="checkbox-table">
-													<label>
-														<input type="checkbox" class="flat-grey">
-													</label>
-												</div></td>
-												<td class="center"><img src="assets/images/avatar-5.jpg" alt="image"/></td>
-												<td>Kenneth Ross</td>
-												<td class="hidden-xs">Senior Designer</td>
-												<td class="hidden-xs">
-												<a href="#" rel="nofollow" target="_blank">
-													kenneth@example.com
-												</a></td>
-												<td class="hidden-xs">(111)-114-1173</td>
-												<td class="center">
-												<div class="visible-md visible-lg hidden-sm hidden-xs">
-													<a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Edit"><i class="fa fa-edit"></i></a>
-													<a href="#" class="btn btn-xs btn-green tooltips" data-placement="top" data-original-title="Share"><i class="fa fa-share"></i></a>
-													<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Remove"><i class="fa fa-times fa fa-white"></i></a>
-												</div>
-												<div class="visible-xs visible-sm hidden-md hidden-lg">
-													<div class="btn-group">
-														<a class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" href="#">
-															<i class="fa fa-cog"></i> <span class="caret"></span>
-														</a>
-														<ul role="menu" class="dropdown-menu pull-right">
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-edit"></i> Edit
-																</a>
-															</li>
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-share"></i> Share
-																</a>
-															</li>
-															<li role="presentation">
-																<a role="menuitem" tabindex="-1" href="#">
-																	<i class="fa fa-times"></i> Remove
-																</a>
-															</li>
-														</ul>
-													</div>
-												</div></td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-							<!-- end: TABLE WITH IMAGES PANEL -->
+<!-- start: PAGE -->
+<div class="main-content">
+	<div class="container">
+		<!-- start: PAGE HEADER -->
+		<div class="row">
+			<div class="col-sm-12">
+				<!-- start: PAGE TITLE & BREADCRUMB -->
+				<ol class="breadcrumb">
+					<li>
+						<i class="fa fa-home"></i>
+						<a href="#">
+							Home
+						</a>
+					</li>
+					<li class="active">
+						RH
+					</li>
+					<li class="active">
+						Funcionários
+					</li>
+				</ol>
+				<div class="page-header">
+					<h1>Funcionários <small>todos os funcionários cadastrados</small></h1>
+				</div>
+				<!-- end: PAGE TITLE & BREADCRUMB -->
+			</div>
+		</div>
+		<!-- end: PAGE HEADER -->
+		<!-- start: PAGE CONTENT -->
+		<div class="row">
+			<div class="col-md-12">
+				<!-- NOVAS TABELAS -->
+				<!-- start: DYNAMIC TABLE PANEL -->
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<i class="fa fa-external-link-square"></i>
+						Tabela de Funcionários
+						<div class="panel-tools">
+						<a class="btn btn-xs btn-green tooltips" href="cad_user.php" data-original-title="Adicionar Usuário" data-placement="top"><i class="fa fa-plus"></i></a>
+						<a class="btn btn-xs btn-link panel-collapse collapses" href="#"></a>
 						</div>
 					</div>
-					<!-- end: PAGE CONTENT-->
+					<div class="panel-body">
+						<table class="table table-striped table-bordered table-hover table-full-width" id="sample_1">
+							<thead>
+								<tr>
+									<th>Nome</th>
+									<th class="hidden-xs">Função</th>
+									<th>Email</th>
+									<th class="hidden-xs">Telefone</th>
+									<th>Opções</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Amaya</td>
+									<td class="hidden-xs">W3C,
+									INRIA</td>
+									<td>Free</td>
+									<td class="hidden-xs">W3C</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>AOL Explorer</td>
+									<td class="hidden-xs">America Online, Inc</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Arora</td>
+									<td class="hidden-xs">Benjamin C. Meyer</td>
+									<td>Free</td>
+									<td class="hidden-xs">GPL</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Avant</td>
+									<td class="hidden-xs">Avant Force</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Camino</td>
+									<td class="hidden-xs">The Camino Project</td>
+									<td>Free</td>
+									<td class="hidden-xs">tri-license</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Chromium</td>
+									<td class="hidden-xs">Google</td>
+									<td>Free</td>
+									<td class="hidden-xs">BSD</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Dillo</td>
+									<td class="hidden-xs">The Dillo team</td>
+									<td>Free</td>
+									<td class="hidden-xs">GPL</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Dooble</td>
+									<td class="hidden-xs">Dooble Team</td>
+									<td>Free</td>
+									<td class="hidden-xs">GPL</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>ELinks</td>
+									<td class="hidden-xs">Baudis, Fonseca, <i>et al.</i></td>
+									<td>Free</td>
+									<td class="hidden-xs">GPL</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Web</td>
+									<td class="hidden-xs">Marco Pesenti Gritti</td>
+									<td>Free</td>
+									<td class="hidden-xs">GPL</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Flock</td>
+									<td class="hidden-xs">Flock Inc</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Galeon</td>
+									<td class="hidden-xs">Marco Pesenti Gritti</td>
+									<td>Free</td>
+									<td class="hidden-xs">GPL</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Google Chrome</td>
+									<td class="hidden-xs">Google</td>
+									<td>Free</td>
+									<td class="hidden-xs">Google Chrome Terms of Service</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>GNU IceCat</td>
+									<td class="hidden-xs">GNU</td>
+									<td>Free</td>
+									<td class="hidden-xs">MPL</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>iCab</td>
+									<td class="hidden-xs">Alexander Clauss</td>
+									<td>$20 (Pro)</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Internet Explorer</td>
+									<td class="hidden-xs">Microsoft,
+									<br>
+									Spyglass</td>
+									<td>comes with Windows</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Internet Explorer for Mac (terminated)</td>
+									<td class="hidden-xs">Microsoft</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>K-Meleon</td>
+									<td class="hidden-xs">Dorian, KKO, <i>et al.</i></td>
+									<td>Free</td>
+									<td class="hidden-xs">GPL</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Konqueror</td>
+									<td class="hidden-xs">KDE</td>
+									<td>Free</td>
+									<td class="hidden-xs">GPL</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Links</td>
+									<td class="hidden-xs">Patocka, <i>et al.</i></td>
+									<td>Free</td>
+									<td class="hidden-xs">GPL</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Lunascape</td>
+									<td class="hidden-xs">Lunascape Corporation</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Lynx</td>
+									<td class="hidden-xs">Montulli, Grobe, Rezac, <i>et al.</i></td>
+									<td>Free</td>
+									<td class="hidden-xs">GPL</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Maxthon</td>
+									<td class="hidden-xs">Maxthon International Limited</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Midori</td>
+									<td class="hidden-xs">Christian Dywan, et al.</td>
+									<td>Free</td>
+									<td class="hidden-xs">LGPL</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Mosaic</td>
+									<td class="hidden-xs">Marc Andreessen and
+									Eric Bina,
+									NCSA</td>
+									<td>non-commercial use</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Mozilla Application Suite</td>
+									<td class="hidden-xs">Mozilla Foundation</td>
+									<td>Free</td>
+									<td class="hidden-xs">tri-license</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Mozilla Firefox</td>
+									<td class="hidden-xs">Mozilla Foundation</td>
+									<td>Free</td>
+									<td class="hidden-xs">MPL</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Netscape (v.6-7) </td>
+									<td class="hidden-xs">Netscape Communications Corporation,
+									AOL</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Netscape Browser (v.8)[note 2]</td>
+									<td class="hidden-xs">Mercurial Communications for
+									AOL</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Netscape Communicator (v.4)[note 2]</td>
+									<td class="hidden-xs">Netscape Communications</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Netscape Navigator (v.1-4)[note 2]</td>
+									<td class="hidden-xs">Netscape Communications</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Netscape Navigator 9[note 2]</td>
+									<td class="hidden-xs">Netscape Communications
+									<br>
+									(division of AOL)</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>NetSurf</td>
+									<td class="hidden-xs">The NetSurf Developers</td>
+									<td>Free</td>
+									<td class="hidden-xs">GPL</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>OmniWeb</td>
+									<td class="hidden-xs">The Omni Group</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Opera</td>
+									<td class="hidden-xs">Opera Software</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Opera Mobile</td>
+									<td class="hidden-xs">Opera Software</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Origyn Web Browser</td>
+									<td class="hidden-xs">Sand-labs</td>
+									<td>Free</td>
+									<td class="hidden-xs">BSD</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>QupZilla</td>
+									<td class="hidden-xs">David Rosca</td>
+									<td>Free</td>
+									<td class="hidden-xs">GNU GPLv3</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Safari</td>
+									<td class="hidden-xs">Apple Inc.</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>SeaMonkey</td>
+									<td class="hidden-xs">SeaMonkey Council</td>
+									<td>Free</td>
+									<td class="hidden-xs">tri-license</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Shiira</td>
+									<td class="hidden-xs">Happy Macintosh Developing Team</td>
+									<td>Free</td>
+									<td class="hidden-xs">BSD</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Sleipnir</td>
+									<td class="hidden-xs">Fenrir Inc.</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Torch Browser</td>
+									<td class="hidden-xs">Torch Media</td>
+									<td>Free</td>
+									<td class="hidden-xs">Proprietary</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>Uzbl</td>
+									<td class="hidden-xs">Dieter Plaetinck</td>
+									<td>Free</td>
+									<td class="hidden-xs">GNU GPLv3</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>WorldWideWeb (Later renamed Nexus)</td>
+									<td class="hidden-xs">Tim Berners-Lee</td>
+									<td>Free</td>
+									<td class="hidden-xs">Public domain</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+								<tr>
+									<td>w3m</td>
+									<td class="hidden-xs">Akinori Ito</td>
+									<td>Free</td>
+									<td class="hidden-xs">MIT</td>
+									<td><a href="#" class="btn btn-xs btn-teal tooltips" data-placement="top" data-original-title="Editar"><i class="fa fa-edit"></i></a>
+								<a href="#" class="btn btn-xs btn-bricky tooltips" data-placement="top" data-original-title="Deletar"><i class="fa fa-times fa fa-white"></i></a></td>
+								</tr>
+							</tbody>
+						</table>
+						<ul class="pagination justify-content-end">
+							<li><a href="#">&laquo;</a></li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">&raquo;</a></li>
+						</ul>
+					</div>
 				</div>
+				<!-- end: DYNAMIC TABLE PANEL -->
+				<!-- NOVAS TABELAS -->
 			</div>
-			<!-- end: PAGE -->
-			
+		</div>
+		<!-- end: PAGE CONTENT-->
+	</div>
+</div>
+<!-- end: PAGE -->
+
 <?php
-	include 'footer.php';
-?>	
+include 'footer.php';
+?>

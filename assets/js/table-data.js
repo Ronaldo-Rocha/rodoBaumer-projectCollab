@@ -9,7 +9,7 @@ var TableData = function () {
                 "aTargets": [0]
             }],
             "oLanguage": {
-                "sLengthMenu": "Show _MENU_ Rows",
+                "sLengthMenu": "Mostrar _MENU_ Linhas",
                 "sSearch": "",
                 "oPaginate": {
                     "sPrevious": "",
@@ -21,12 +21,12 @@ var TableData = function () {
             ],
             "aLengthMenu": [
                 [5, 10, 15, 20, -1],
-                [5, 10, 15, 20, "All"] // change per page values here
+                [5, 10, 15, 20, "Tudo"] // change per page values here
             ],
             // set the initial value
             "iDisplayLength": 10,
         });
-        $('#sample_1_wrapper .dataTables_filter input').addClass("form-control input-sm").attr("placeholder", "Search");
+        $('#sample_1_wrapper .dataTables_filter input').addClass("form-control input-sm").attr("placeholder", "Pesquisar");
         // modify table search input
         $('#sample_1_wrapper .dataTables_length select').addClass("m-wrap small");
         // modify table per page dropdown
