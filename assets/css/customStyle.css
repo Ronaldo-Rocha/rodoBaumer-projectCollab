@@ -1,0 +1,31 @@
+.logo-rodo{
+    height: 50px;
+    width: 225px;
+}
+.navbar-brand,.px-0{
+    padding: 0 !important;
+}
+
+.avatarImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.center-flex-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+h11{
+    color: #ff0000;
+    font-size: large;
+    font-weight: 600;
+}
+.border{
+    border: 2px solid darkgray;
+    border-radius: 5px;
+
+}
