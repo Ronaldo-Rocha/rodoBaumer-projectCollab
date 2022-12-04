@@ -168,7 +168,7 @@ include 'header.php';
 									<!-- FORMULARIO -->
 									<div class="container-fluid">
 										<!-- BLOCO 1 -->
-										<div class="form-group col-md-12  bgform">
+										<div class="form-group col-md-12  bg_form">
 											<p>Dados da empresa</p>
 										</div>
 										<div class="col-md-12">
@@ -207,7 +207,7 @@ include 'header.php';
 										<!-- FIM BLOCO 1 -->
 
 										<!-- BLOCO 2 -->
-										<div class="form-group col-md-12  bgform">
+										<div class="form-group col-md-12  bg_form">
 											<p>Dados do(a) Contratado(a)</p>
 										</div>
 
@@ -322,14 +322,175 @@ include 'header.php';
 										</div><!-- fim-col-12 -->
 
 										<div class="col-md-12">
-											<div class="col-md-6">
+											<div class="form-group col-md-3">
 												<div class="input-group">
 													<span class="input-group-addon">Data Casamento / União</span>
-													<input type="text" name="" id="" class="form-control">
+													<input type="date" name="" id="" class="form-control">
 												</div>
 											</div>
+
+											<div class="form-group col-md-6">
+												<div class="input-group">
+													<span class="input-group-addon">Nome Completo</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+
+											<div class="form-group col-md-3">
+												<label class="radio-inline">
+												<input type="radio" value="" name="optionsRadios2" class="grey" >
+													Cônjuge
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadios2" class="grey" >
+													Companheiro(a)
+												</label>
+											</div>
+
 										</div><!-- fim-col-12 -->
 
+										<div class="col-md-12">
+											<div class="form-group col-md-3">
+												<span >Cônjuge/ companheiro(a) trabalha registrado?</span><br>	
+												<label class="radio-inline">
+												<input type="radio" value="" name="optionsRadios3" class="grey" >
+													Sim
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadios3" class="grey" >
+													Não
+												</label>
+											</div>
+
+											<div class="form-group col-md-6">
+												<div class="input-group">
+													<span class="input-group-addon">CPF Cônjuge/Companheiro(a)</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+
+										</div><!-- fim-col-12 -->
+
+										<!-- SUB BLOCO 2-1 -->
+										<div class="form-group col-md-12  bg_form2">
+											<p>raça/cor</p>
+										</div>
+
+										<div class="col-md-12 justify-content-around">
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadios4" class="grey" >
+													Branca
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadios4" class="grey" >
+													Preta
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadios4" class="grey" >
+													Parda
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadios4" class="grey" >
+													Amarela 
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadios4" class="grey" >
+													Indígena
+												</label>
+										</div><!-- fim-col-12 -->
+
+										<!-- SUB BLOCO 2-2 -->
+										<div class="form-group col-md-12  bg_form2">
+											<p>Deficiência</p>
+										</div>
+
+										<div class="col-md-12 justify-content-around">
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadios5" class="grey" >
+													Física
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadios5" class="grey" >
+													Auditiva
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadios5" class="grey" >
+													Visual
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadios5" class="grey" >
+													Reabilitado 
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadios5" class="grey" >
+													Nenhuma
+												</label>
+										</div><!-- fim-col-12 -->
+
+										<!-- BLOCO 3 -->
+										<div class="form-group col-md-12  bg_form">
+											<p>Grau de Instrução</p>
+										</div>
+										<div class="col-md-12">
+											<div class="col-md-3">
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadios7" class="grey" >
+													Analfabeto
+												</label>
+											</div>
+											<div class="col-md-3">
+
+												<label class="radio">
+													<input type="radio" value="" name="optionsRadios7" class="grey" >
+													1º Grau (Fundamental)
+												</label>
+
+												<label class="radio">
+													<input type="radio" value="" name="optionsRadios6" class="grey" >
+													Completo
+												</label>
+												<label class="radio">
+													<input type="radio" value="" name="optionsRadios6" class="grey" >
+													Incompleto
+												</label>
+											</div>
+
+											<div class="col-md-3">
+												<label class="radio">
+													<input type="radio" value="" name="optionsRadios7" class="grey" >
+													2º Grau (Médio)
+												</label>
+												<label class="radio">
+													<input type="radio" value="" name="optionsRadios6" class="grey" >
+													Completo
+												</label>
+												<label class="radio">
+													<input type="radio" value="" name="optionsRadios6" class="grey" >
+													Incompleto
+												</label>
+											</div>
+
+											<div class="col-md-3">
+												<label class="radio">
+													<input type="radio" value="" name="optionsRadios7" class="grey" >
+													Técnico
+												</label>
+												<label class="radio">
+													<input type="radio" value="" name="optionsRadios6" class="grey" >
+													Completo
+												</label>
+												<label class="radio">
+													<input type="radio" value="" name="optionsRadios6" class="grey" >
+													Incompleto
+												</label>
+
+												<div class="input-group">
+													<input type="date" class="form-control">
+													<span class="input-group-addon">Data de conclusão</span>
+												</div>
+											
+											</div>
+										</div><!-- fim-col-12 -->
 
 										
 									</div><!-- fim container -->

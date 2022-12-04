@@ -24,8 +24,13 @@
     justify-content: end;
     align-items: center;
 }
+.justify-content-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
-.bgform , p{
+.bg_form , p{
     background-color: #8191A1;
     text-align: center;
     text-transform: uppercase;
@@ -34,11 +39,13 @@
     color: whitesmoke;
     margin-top: 10px !important;
 }
-
-.label-gray{
-    background-color: gray;
+.bg_form2, .bg_form2 p{
+   background-color: #F3F5F6 ; 
+   text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: large;
+    color: #363636;
+    margin-top: 10px !important;
 }
 
-.btn-pesquisar{
-    padding-top: 17px;
-}
