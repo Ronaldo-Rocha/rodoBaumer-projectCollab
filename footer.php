@@ -89,8 +89,11 @@
 		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
 
 		<!-- JAVASCRIPTS PAGINA DE TABELAS -->
+		<script type="text/javascript" src="assets/plugins/bootbox/bootbox.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-mockjax/jquery.mockjax.js"></script>
 		<script type="text/javascript" src="assets/plugins/select2/select2.min.js"></script>
 		<script type="text/javascript" src="assets/plugins/DataTables/media/js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/DataTables/media/js/DT_bootstrap.js"></script>
 		<script src="assets/js/table-data.js"></script>
 		<!-- end: JAVASCRIPTS PAGINA DE TABELAS -->
 

@@ -145,155 +145,196 @@ include 'header.php';
 									<div class="form-group col-md-12">
 										<div class="col-md-4"></div>
 										<div class="col-md-4">
-											<div class="col-md-offset-4">
-												<label>
-													Foto
-												</label>
+											<!-- FIM AVATAR -->
+											<div class="form-group avatarImg">
+												<div class="fileupload-new thumbnail" style="width: 150px; height: 150px;"><img src="assets/images/avatar-1-xl.jpg" alt="">
+												</div>
 												<div class="fileupload fileupload-new" data-provides="fileupload">
-													<div class="fileupload-new thumbnail" style="width: 150px; height: 150px;"><img src="assets/images/avatar-1-xl.jpg" alt="">
-													</div>
 													<div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 150px; max-height: 150px; line-height: 20px;"></div>
 													<div class="user-edit-image-buttons">
-														<span class="btn btn-light-grey btn-file"><span class="fileupload-new"><i class="fa fa-picture"></i> Selecionar foto</span><span class="fileupload-exists"><i class="fa fa-picture"></i> Trocar</span>
+														<span class="btn btn-light-grey btn-file"><span class="fileupload-new"><i class="fa fa-picture"></i> Selecionar Foto</span><span class="fileupload-exists"><i class="fa fa-picture"></i> Mudar</span>
 															<input type="file">
 														</span>
 														<a href="#" class="btn fileupload-exists btn-light-grey" data-dismiss="fileupload">
-															<i class="fa fa-times"></i> Deletar
+															<i class="fa fa-times"></i> Remover
 														</a>
 													</div>
 												</div>
 											</div>
+											<!-- FIM AVATAR -->
 										</div>
 										<div class="col-md-4"></div>
 									</div>
-									<div class="form-group col-md-2">
-										<label class="control-label">
-											Nome
-										</label>
-										<input type="text" class="form-control" name="first_name">
-									</div>
-									<div class="form-group col-md-2">
-										<label class="control-label">
-											Sobrenome
-										</label>
-										<input type="text" class="form-control" name="last_name">
-									</div>
-									<div class="form-group col-md-2">
-										<label class="control-label">
-											Codinome
-										</label>
-										<input type="text" class="form-control" name="email">
-									</div>
-									<div class="form-group col-md-2">
-										<label class="control-label">
-											Data de Nascimento
-										</label>
-										<input type="date" class="form-control" name="date_birth">
-									</div>
-									<div class="form-group col-md-2">
-										<label class="control-label">
-											Telefone
-										</label>
-										<input type="text" class="form-control" name="phone">
-									</div>
-									<div class="form-group col-md-2">
-										<label class="control-label">
-											Cargo
-										</label>
-										<select name="role" class="form-control">
-											<option value="1">Motorista</option>
-										</select>
-									</div>
-									<div class="form-group col-md-3">
-										<label class="control-label">
-											RG
-										</label>
-										<input type="text" class="form-control" name="rg">
-									</div>
-									<div class="form-group col-md-3">
-										<label class="control-label">
-											RG Validade
-										</label>
-										<input type="text" class="form-control" name="rg_validity">
-									</div>
-									<div class="form-group col-md-3">
-										<label class="control-label">
-											CPF
-										</label>
-										<input type="text" class="form-control" name="cpf">
-									</div>
-									<div class="form-group col-md-3">
-										<label class="control-label">
-											CPF Validade
-										</label>
-										<input type="text" class="form-control" name="cpf_validity">
-									</div>
-									<div class="form-group col-md-3">
-										<label class="control-label">
-											CNH
-										</label>
-										<input type="text" class="form-control" name="cnh">
-									</div>
-									<div class="form-group col-md-3">
-										<label class="control-label">
-											CNH Validade
-										</label>
-										<input type="text" class="form-control" name="cnh_validity">
-									</div>
-									<div class="form-group col-md-3">
-										<label class="control-label">
-											MOP
-										</label>
-										<input type="text" class="form-control" name="mop">
-									</div>
-									<div class="form-group col-md-3">
-										<label class="control-label">
-											MOP Validade
-										</label>
-										<input type="text" class="form-control" name="mop_validity">
-									</div>
-									<div class="form-group col-md-4">
-										<label class="control-label">
-											CEP
-										</label>
-										<input type="text" class="form-control" name="cep">
-									</div>
-									<div class="form-group col-md-6">
-										<label class="control-label">
-											Endereço
-										</label>
-										<input type="text" class="form-control" name="address">
-									</div>
-									<div class="form-group col-md-2">
-										<label class="control-label">
-											Número
-										</label>
-										<input type="text" class="form-control" name="number">
-									</div>
-									<div class="form-group col-md-3">
-										<label class="control-label">
-											Complemento
-										</label>
-										<input type="text" class="form-control" name="complement">
-									</div>
-									<div class="form-group col-md-3">
-										<label class="control-label">
-											Bairro
-										</label>
-										<input type="text" class="form-control" name="district">
-									</div>
-									<div class="form-group col-md-3">
-										<label class="control-label">
-											Cidade
-										</label>
-										<input type="text" class="form-control" name="city">
-									</div>
-									<div class="form-group col-md-3">
-										<label class="control-label">
-											Estado
-										</label>
-										<input type="text" class="form-control" name="state">
-									</div>
+									<!-- FORMULARIO -->
+									<div class="container-fluid">
+										<!-- BLOCO 1 -->
+										<div class="form-group col-md-12  bgform">
+											<p>Dados da empresa</p>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon">Contratante</span>
+													<input class="form-control" type="text" id="contratante">
+												</div>
+											</div>
+											
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon" for="CNPJ">CNPJ</span>
+													<input class="form-control" type="text" id="CNPJ">
+												</div>
+											</div>
+
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon" for="Cidade">Cidade</span>
+													<input class="form-control" type="text" id="Cidade">
+												</div>
+											</div>
+
+											<div class="form-group col-md-3">
+												<label class="radio-inline">
+												<input type="radio" value="" name="optionsRadios" class="grey" >
+													Matriz
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadios" class="grey" >
+													Filial
+												</label>
+											</div>
+										</div>
+										<!-- FIM BLOCO 1 -->
+
+										<!-- BLOCO 2 -->
+										<div class="form-group col-md-12  bgform">
+											<p>Dados do(a) Contratado(a)</p>
+										</div>
+
+										<div class="col-md-12">
+											<div class="form-group col-md-6">
+												<div class="input-group">
+													<span class="input-group-addon">Nome Completo</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+											<div class="form-group col-md-6">
+												<div class="input-group">
+													<span class="input-group-addon">Nome Social</span>
+													<input class="form-control" type="text" id="NomeSocial">
+												</div>
+											</div>
+
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon">CEP</span>
+													<input class="form-control" name="CEP" type="text" placeholder="sómente numeros">
+												</div>
+											</div>
+
+											<div class="form-group col-md-2">
+      											<button type="button" class="btn btn-success form-control " onclick="pesquisacep()">Pesquisar</button>
+    										</div>
+										</div><!-- fim-col-12 -->
+
+										<div class="col-md-12">
+											<div class="form-group col-md-5">
+												<div class="input-group">
+													<span class="input-group-addon">Rua</span>
+													<input id="rua" name="rua" class="form-control" placeholder="" required="" readonly="readonly" type="text">
+												</div>
+											</div>
+											<div class="form-group col-md-2">
+												<div class="input-group">
+													<span class="input-group-addon">Nº</span>
+													<input id="numero" name="numero" class="form-control" placeholder="" required=""  type="text">
+												</div>
+											</div>
+
+											<div class="form-group col-md-5">
+												<div class="input-group">
+													<span class="input-group-addon">Bairro</span>
+													<input id="bairro" name="bairro" class="form-control" placeholder="" required="" readonly="readonly" type="text">
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+
+										<div class="col-md-12">
+											<div class="form-group col-md-5">
+												<div class=" input-group">
+													<span class="input-group-addon">Cidade</span>
+													<input id="cidade" name="cidade" class="form-control" placeholder="" required=""  readonly="readonly" type="text">
+												</div>
+											</div>
+
+											<div class="form-group col-md-2">
+												<div class="input-group">
+													<span class="input-group-addon">Estado</span>
+													<input id="estado" name="estado" class="form-control" placeholder="" required=""  readonly="readonly" type="text">
+												</div>
+											</div>
+
+											<div class="form-group col-md-5">
+												<div class="input-group">
+													<span class="input-group-addon">Complemento</span>
+													<input id="Complemento" name="Complemento" class="form-control" required=""   type="text" placeholder="ex: bloco 1 casa 3">
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+
+										<div class="col-md-12">
+											<div class="form-group col-md-2">
+												<div class="input-group">
+													<span class="input-group-addon">Telefone</span>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+
+											
+											<div class="form-group col-md-2">
+												<div class="input-group">
+													<span class="input-group-addon">Celular</span>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+
+											<div class="form-group col-md-4">
+												<div class="input-group">
+													<span class="input-group-addon">Email</span>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+
+											<div class="form-group col-md-4">
+												<div class="input-group">
+													<span class="input-group-addon">Estado Civil</span>
+													<select class="custom-select form-control" id="selectCustom">
+														<option selected>Selecionar...</option>
+														<option value="1">Solteiro(a)</option>
+														<option value="2">Casado(a)</option>
+														<option value="3">Separado(a)</option>
+														<option value="4">divorciado(a)</option>
+														<option value="5">Viúvo(a)</option>
+													</select>
+												</div>
+											</div>
+
+										</div><!-- fim-col-12 -->
+
+										<div class="col-md-12">
+											<div class="col-md-6">
+												<div class="input-group">
+													<span class="input-group-addon">Data Casamento / União</span>
+													<input type="text" name="" id="" class="form-control">
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+
+
+										
+									</div><!-- fim container -->
+
+									
 								</div>
 								<div class="row">
 									<div class="col-md-12">

@@ -1,9 +1,9 @@
 .logo-rodo{
     height: 50px;
-    width: 225px;
+    width: 250px;
 }
 .navbar-brand,.px-0{
-    padding: 0 !important;
+    padding: 0 6px !important;
 }
 
 .avatarImg{
@@ -23,4 +23,22 @@
     display: flex;
     justify-content: end;
     align-items: center;
+}
+
+.bgform , p{
+    background-color: #8191A1;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: large;
+    color: whitesmoke;
+    margin-top: 10px !important;
+}
+
+.label-gray{
+    background-color: gray;
+}
+
+.btn-pesquisar{
+    padding-top: 17px;
 }
