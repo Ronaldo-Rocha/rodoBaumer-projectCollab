@@ -167,7 +167,7 @@ include 'header.php';
 									</div>
 									<!-- FORMULARIO -->
 									<div class="container-fluid">
-										<!-- BLOCO 1 -->
+										<!--######### BLOCO 1 #########-->
 										<div class="form-group col-md-12  bg_form">
 											<p>Dados da empresa</p>
 										</div>
@@ -206,7 +206,7 @@ include 'header.php';
 										</div>
 										<!-- FIM BLOCO 1 -->
 
-										<!-- BLOCO 2 -->
+										<!--######### BLOCO 2 #########-->
 										<div class="form-group col-md-12  bg_form">
 											<p>Dados do(a) Contratado(a)</p>
 										</div>
@@ -427,7 +427,7 @@ include 'header.php';
 												</label>
 										</div><!-- fim-col-12 -->
 
-										<!-- BLOCO 3 -->
+										<!--######### BLOCO 3 ######### -->
 										<div class="form-group col-md-12  bg_form">
 											<p>Grau de Instrução</p>
 										</div>
@@ -538,7 +538,7 @@ include 'header.php';
 
 										</div><!-- fim-col-12 -->
 
-										<!-- BLOCO 4 -->
+										<!--######### BLOCO 4 ######### -->
 										<div class="form-group col-md-12  bg_form">
 											<p>Dados Contratuais</p>
 										</div>
@@ -580,7 +580,6 @@ include 'header.php';
 														<input id="text" name="text" type="text" class="form-control">
 													</div>
 												
-
 												<div class="form-group input-group">
 													<div class="input-group-addon">% sobre vendas</div> 
 													<input id="" name="" type="text" class="form-control"> 
@@ -590,6 +589,30 @@ include 'header.php';
 												</div>
 											</div>
 											
+											<div class="form-group col-md-6">
+												<div class="col-md-12">
+													<span>Prazo de experiência </span>
+													<label class="checkbox-inline">
+														<input type="checkbox" value="" class="grey">
+														Não terá Experiência
+													</label>
+												</div>
+													<div class="form-group col-md-6">
+														<div class="input-group">
+															<span class="input-group-addon">1º fase</span>
+															<input type="text">
+														</div>
+													</div>			
+													<div class="form-group col-md-6">
+														<div class="input-group">
+															<span class="input-group-addon">2º fase</span>
+															<input type="text">
+														</div>
+													</div>	
+													<span id="textHelpBlock" class="help-block"> <i class="fa fa-info-circle"></i> Informe a quantidade de dias em cada uma das fases se houver periodo de experiência.</span>		
+													<span id="textHelpBlock" class="help-block"> <i class="fa fa-info-circle"></i> OBS: controlar e nos informar <span class="text-uppercase text-danger"><strong>com 05 dias úteis</strong></span>  antes do venimento se a 1º fase será prorrogada ou não e se a 2º fase será rescindida ou não.</span>		
+											</div>
+
 											<div class="col-md-2">
 												<span>Forma de pagamento</span><br>
 												<div class="form-group">
@@ -631,34 +654,376 @@ include 'header.php';
 
 													<input id="text_pagamento" name="text_pagamento" placeholder="Especifique a opção 'Outros'" type="text" class="form-control">
 												</div>
-											</div>	
-													
+											</div>
+										</div><!-- fim-col-12 -->
+
+										<!--######### BLOCO 5 ######### -->
+										<div class="form-group col-md-12  bg_form">
+											<p>Horário de trabalho</p>
+										</div>
+										<div class="col-md-12">
+											<div class="col-md-12 justify-content-around">
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadiosHorario" class="grey" >
+													Normal
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadiosHorario" class="grey" >
+													Escala revezamento (06hrs diárias)
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadiosHorario" class="grey" >
+													Escala 12x36 (indicar dia de folga)
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadiosHorario" class="grey" >
+													Sábados alternados 
+												</label>
+												<label class="radio-inline">
+													<input type="radio" value="" name="optionsRadiosHorario" class="grey" >
+													EXTERNO
+												</label>
+											</div>
+										
+											<div class="col-md-12">
+												<div class="panel panel-default">
+													<div class="panel-heading">
+														<h4 class="panel-title center">
+														<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+															<i class="icon-arrow"></i>
+															Detalhes do Horario de trabalho
+														</a></h4>
+													</div>
+													<div id="collapseOne" class="panel-collapse collapse">
+														<div class="panel-body">
+															<!-- col-1 -->
+															<div class="col-md-4">
+																<div class="form-group input-group">
+																	<div class="input-group-addon">2ªfeira | Entrada </div> 
+																	<input id="text" name="text" type="time" class="form-control">
+																</div>
+																<div class="form-group input-group">
+																	<div class="input-group-addon">3ªfeira | Entrada</div> 
+																	<input id="text" name="text" type="time" class="form-control">
+																</div>
+																<div class="form-group input-group">
+																	<div class="input-group-addon">4ªfeira | Entrada</div> 
+																	<input id="text" name="text" type="time" class="form-control">
+																</div>
+																<div class="form-group input-group">
+																	<div class="input-group-addon">5ªfeira | Entrada</div> 
+																	<input id="text" name="text" type="time" class="form-control">
+																</div>
+																<div class="form-group input-group">
+																	<div class="input-group-addon">6ªfeira | Entrada</div> 
+																	<input id="text" name="text" type="time" class="form-control">
+																</div>
+																<div class="form-group input-group">
+																	<div class="input-group-addon">Sábado | Entrada</div> 
+																	<input id="text" name="text" type="time" class="form-control">
+																</div>
+																<div class="form-group input-group">
+																	<div class="input-group-addon">Domingo | Entrada</div> 
+																	<input id="text" name="text" type="time" class="form-control">
+																</div>
+															</div>
+															<!-- col-2 -->
+															<div class="col-md-5">
+																<div class="form-group col-md-6">
+																	<div class="input-group">
+																		<span class="input-group-addon">Intervalo / Refeição</span>
+																		<input type="time">
+																	</div>
+																</div>	
+																
+																<div class="form-group col-md-6">
+																	<div class="input-group">
+																		<span class="input-group-addon">ás</span>
+																		<input type="time">
+																	</div>
+																</div>	
+																
+																<div class="form-group col-md-6">
+																	<div class="input-group">
+																		<span class="input-group-addon">Intervalo / Refeição</span>
+																		<input type="time">
+																	</div>
+																</div>	
+																
+																<div class="form-group col-md-6">
+																	<div class="input-group">
+																		<span class="input-group-addon">ás</span>
+																		<input type="time">
+																	</div>
+																</div>	
+																<div class="form-group col-md-6">
+																	<div class="input-group">
+																		<span class="input-group-addon">Intervalo / Refeição</span>
+																		<input type="time">
+																	</div>
+																</div>	
+																
+																<div class="form-group col-md-6">
+																	<div class="input-group">
+																		<span class="input-group-addon">ás</span>
+																		<input type="time">
+																	</div>
+																</div>	
+																<div class="form-group col-md-6">
+																	<div class="input-group">
+																		<span class="input-group-addon">Intervalo / Refeição</span>
+																		<input type="time">
+																	</div>
+																</div>	
+																
+																<div class="form-group col-md-6">
+																	<div class="input-group">
+																		<span class="input-group-addon">ás</span>
+																		<input type="time">
+																	</div>
+																</div>	
+																<div class="form-group col-md-6">
+																	<div class="input-group">
+																		<span class="input-group-addon">Intervalo / Refeição</span>
+																		<input type="time">
+																	</div>
+																</div>	
+																
+																<div class="form-group col-md-6">
+																	<div class="input-group">
+																		<span class="input-group-addon">ás</span>
+																		<input type="time">
+																	</div>
+																</div>	
+																<div class="form-group col-md-6">
+																	<div class="input-group">
+																		<span class="input-group-addon">Intervalo / Refeição</span>
+																		<input type="time">
+																	</div>
+																</div>	
+																
+																<div class="form-group col-md-6">
+																	<div class="input-group">
+																		<span class="input-group-addon">ás</span>
+																		<input type="time">
+																	</div>
+																</div>	
+																<div class="form-group col-md-6">
+																	<div class="input-group">
+																		<span class="input-group-addon">Intervalo / Refeição</span>
+																		<input type="time">
+																	</div>
+																</div>	
+																
+																<div class="form-group col-md-6">
+																	<div class="input-group">
+																		<span class="input-group-addon">ás</span>
+																		<input type="time">
+																	</div>
+																</div>	
+
+															</div>
+
+															<!-- col-3 -->
+															<div class="col-md-3">
+																<div class="form-group input-group">
+																	<div class="input-group-addon">Saída </div> 
+																	<input id="text"  type="time" class="form-control">
+																</div>
+																<div class="form-group input-group">
+																	<div class="input-group-addon">Saída</div> 
+																	<input id="text"  type="time" class="form-control">
+																</div>
+																<div class="form-group input-group">
+																	<div class="input-group-addon">Saída</div> 
+																	<input id="text"  type="time" class="form-control">
+																</div>
+																<div class="form-group input-group">
+																	<div class="input-group-addon">Saída</div> 
+																	<input id="text"  type="time" class="form-control">
+																</div>
+																<div class="form-group input-group">
+																	<div class="input-group-addon">Saída</div> 
+																	<input id="text"  type="time" class="form-control">
+																</div>
+																<div class="form-group input-group">
+																	<div class="input-group-addon">Saída</div> 
+																	<input id="text"  type="time" class="form-control">
+																</div>
+																<div class="form-group input-group">
+																	<div class="input-group-addon">Saída</div> 
+																	<input id="text"  type="time" class="form-control">
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+
+										<div class="col-md-12">
 											
-											<div class="form-group col-md-6">
-												<div class="col-md-12">
-													<span>Prazo de experiência </span>
-													<label class="checkbox-inline">
-														<input type="checkbox" value="" class="grey">
-														Não terá Experiência
+											<div class="col-md-4">
+												<span>Adiantamento (vale) 40% </span>
+												
+													<label class="radio-inline">
+													<input type="radio" name="radio_vale" value="" class="grey">
+														Sim
+													</label>
+												
+													<label class="radio-inline">
+													<input type="radio" name="radio_vale" value="" class="grey">
+														Não
+													</label>
+												<span id="textHelpBlock" class="help-block"> <i class="fa fa-info-circle"></i> OBS: no mês de admissão não sera gerado o adto</span>	
+											</div>
+
+											<div class="col-md-4">
+												<span>É sócio do Sindicato?</span>
+												<label class="radio-inline">
+													<input type="radio" name="radio_sindicato" value="" class="grey">
+														Sim
+													</label>
+												
+													<label class="radio-inline">
+													<input type="radio" name="radio_sindicato" value="" class="grey">
+														Não
+													</label>
+											</div>
+
+											<div class="col-md-4">
+												<span>Autoriza descontos Extras no Salário</span>
+												<label class="radio-inline">
+													<input type="radio" name="radio_desc" value="" class="grey">
+														Sim
+													</label>
+												
+													<label class="radio-inline">
+													<input type="radio" name="radio_desc" value="" class="grey">
+														Não
+													</label>
+											</div>
+
+
+										</div><!-- fim-col-12 -->
+
+										<div class="form-group col-md-12  bg_form">
+											<p>Pagamento de salário em conta</p>
+										</div>
+										<div class="col-md-12">
+												<div class="col-md-3">
+													<span>Tipo de conta</span>
+													
+													<label class="radio-inline">
+													<input type="radio" name="radio_conta" value="" class="grey">
+														Poupança
+													</label>
+												
+													<label class="radio-inline">
+													<input type="radio" name="radio_conta" value="" class="grey">
+														Conta Corrente
 													</label>
 												</div>
-													<div class="form-group col-md-6">
-														<div class="input-group">
-															<span class="input-group-addon">1º fase</span>
-															<input type="text">
-														</div>
-													</div>			
-													<div class="form-group col-md-6">
-														<div class="input-group">
-															<span class="input-group-addon">2º fase</span>
-															<input type="text">
-														</div>
-													</div>	
-													<span id="textHelpBlock" class="help-block"> <i class="fa fa-info-circle"></i> Informe a quantidade de dias em cada uma das fases se houver periodo de experiência.</span>		
-													<span id="textHelpBlock" class="help-block"> <i class="fa fa-info-circle"></i> OBS: controlar e nos informar <span class="text-uppercase text-danger"><strong>com 05 dias úteis</strong></span>  antes do venimento se a 1º fase será prorrogada ou não e se a 2º fase será rescindida ou não.</span>		
-											</div>
-											
+
+												<div class="form-group col-md-3">
+													<div class="input-group">
+														<span class="input-group-addon">Cod. Banco</span>
+														<input type="text" class="form-control">
+													</div>
+												</div>	
+
+												<div class="form-group col-md-3">
+													<div class="input-group">
+														<span class="input-group-addon">Nome Banco</span>
+														<input type="text" class="form-control">
+													</div>
+												</div>
 												
+												<div class="form-group col-md-3">
+													<div class="input-group">
+														<span class="input-group-addon">Nº agência</span>
+														<input type="text" class="form-control">
+													</div>
+												</div>												
+										</div><!-- fim-col-12 -->
+										
+										<div class="col-md-12">
+											<div class="form-group col-md-6">
+												<div class="input-group">
+													<span class="input-group-addon">Nome agência</span>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+
+											<div class="form-group col-md-6">
+												<div class="input-group">
+													<span class="input-group-addon">Nº da conta</span>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+
+										</div><!-- fim-col-12 -->
+
+										<!--######### BLOCO 6 ######### -->
+										<div class="form-group col-md-12  bg_form">
+											<p>Outros tipos de contratos</p>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group col-md-3">
+												
+												<label class="radio-inline">
+													<input type="radio" value="" name="outro_contrato" class="grey">
+													Obra Certa
+												</label>
+												
+												<div class="input-group">
+													<span class="input-group-addon">Prazo duração Estimada</span>
+													<input type="text" name="" id="" class="form-control" placeholder="insira quantidade de dias">
+												</div>
+
+											</div>
+
+											<div class="form-group col-md-3">
+												<label class="radio-inline">
+													<input type="radio" value="" name="outro_contrato" class="grey">
+													Trabalho intermitente
+												</label>
+
+												<div class="input-group">
+													<span class="input-group-addon">observação</span>
+													<input type="text" name="" id="" class="form-control" placeholder="">
+												</div>
+											</div>
+
+											<div class="form-group col-md-3">
+												<label class="radio-inline">
+													<input type="radio" value="" name="outro_contrato" class="grey">
+													Home Office
+												</label>
+
+												<label class="radio-inline">
+													<input type="radio" value="" name="outro_contrato" class="grey">
+													Teletrabalho
+												</label>
+												
+												<div class="input-group">
+													<span class="input-group-addon">observação</span>
+													<input type="text" name="" id="" class="form-control" placeholder="">
+												</div>
+											</div>
+
+											<div class="form-group col-md-3">
+												<label class="radio-inline">
+													<input type="radio" value="" name="outro_contrato" class="grey">
+													Autonomo
+												</label>
+
+												<div class="input-group">
+													<span class="input-group-addon">observação</span>
+													<input type="text" name="" id="" class="form-control" placeholder="">
+												</div>
+											</div>
+
 										</div><!-- fim-col-12 -->
 
 										
