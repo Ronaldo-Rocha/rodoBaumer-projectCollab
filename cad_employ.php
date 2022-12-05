@@ -1192,6 +1192,197 @@ include 'header.php';
 										<div class="form-group col-md-12  bg_form">
 											<p>Benefícios</p>
 										</div>
+										<div class="col-md-12 ">
+											<div class="form-group col-md-2 ">
+												<span>Vale Transporte </span>
+												<label class="radio-inline ">
+												<input type="radio" name="radio_transp" value="" class="grey">
+													Sim
+												</label>
+											
+												<label class="radio-inline">
+												<input type="radio" name="radio_transp" value="" class="grey">
+													Não
+												</label>
+											</div>
+
+											<div class="col-md-5">
+												<div class="form-group" >
+													<div class="input-group">
+														<span class="input-group-addon">Valor do passe R$</span>
+														<input type="text" name="" id="" class="form-control">
+													</div>
+												</div>
+											</div>
+
+											<div class="col-md-5">
+												<div class="form-group" >
+													<div class="input-group">
+														<span class="input-group-addon">Quantidade diária (ida e volta)</span>
+														<input type="text" name="" id="" class="form-control">
+													</div>
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+
+										<div class="col-md-12">
+											
+
+											<div class="col-md-6">
+												<div class="form-group" >
+													<div class="input-group">
+														<span class="input-group-addon">1º Empresa</span>
+														<input type="text" name="" id="" class="form-control">
+													</div>
+												</div>
+											</div>
+
+											<div class="col-md-6">
+												<div class="form-group" >
+													<div class="input-group">
+														<span class="input-group-addon">2º Empresa</span>
+														<input type="text" name="" id="" class="form-control">
+													</div>
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+
+										<div class="col-md-12">
+											<div class="form-group col-md-2">
+												<span>Vale Refeição </span>
+												<label class="radio-inline">
+												<input type="radio" name="radio_ref" value="" class="grey">
+													Sim
+												</label>
+											
+												<label class="radio-inline">
+												<input type="radio" name="radio_ref" value="" class="grey">
+													Não
+												</label>
+											</div>
+
+											<div class="col-md-5">
+												<div class="form-group" >
+													<div class="input-group">
+														<span class="input-group-addon">Valor Diário</span>
+														<input type="text" name="" id="" class="form-control">
+													</div>
+												</div>
+											</div>
+
+											<div class="col-md-5">
+												<div class="form-group" >
+													<div class="input-group">
+														<span class="input-group-addon">% Desconto</span>
+														<input type="text" name="" id="" class="form-control">
+													</div>
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+										
+										<div class="col-md-12">
+											<div class="form-group col-md-3">
+												<span>Conv. Assistência Médica </span>
+												<label class="radio-inline">
+												<input type="radio" name="radio_med" value="" class="grey">
+													Sim
+												</label>
+											
+												<label class="radio-inline">
+												<input type="radio" name="radio_med" value="" class="grey">
+													Não
+												</label>
+											</div>
+
+											<div class="col-md-9">
+												<div class="form-group" >
+													<div class="input-group">
+														<span class="input-group-addon">Valor do Desconto Mensal, á ser informado em planilha</span>
+														<input type="text" name="" id="" class="form-control">
+													</div>
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+
+										<div class="col-md-12">
+											<div class="form-group col-md-3">
+												<span>Convênio Odontológico</span>
+												<label class="radio-inline">
+												<input type="radio" name="radio_odont" value="" class="grey">
+													Sim
+												</label>
+											
+												<label class="radio-inline">
+												<input type="radio" name="radio_odont" value="" class="grey">
+													Não
+												</label>
+											</div>
+
+											<div class="col-md-9">
+												<div class="form-group" >
+													<div class="input-group">
+														<span class="input-group-addon">Valor do Desconto Mensal, á ser informado em planilha</span>
+														<input type="text" name="" id="" class="form-control">
+													</div>
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+
+										<div class="col-md-12">
+											<div class="form-group col-md-3">
+												<span>Seguro de Vida</span>
+												<label class="radio-inline">
+												<input type="radio" name="radio_seguro" value="" class="grey">
+													Sim
+												</label>
+											
+												<label class="radio-inline">
+												<input type="radio" name="radio_seguro" value="" class="grey">
+													Não
+												</label>
+											</div>
+
+											<div class="col-md-9">
+												<div class="form-group" >
+													<div class="input-group">
+														<span class="input-group-addon">Valor do Desconto Mensal:</span>
+														<input type="text" name="" id="" class="form-control">
+													</div>
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+
+										<div class="col-md-12">
+											<div class="form-group col-md-4">
+												<div class="form-group" >
+													<div class="input-group">
+														<span class="input-group-addon">Outros / Especificar:</span>
+														<input type="text" name="" id="" class="form-control">
+													</div>
+												</div>
+											</div>
+
+											<div class="form-group col-md-2 center">
+												<label class="radio-inline">
+												<input type="radio" name="radio_outro" value="" class="grey">
+													Sim
+												</label>
+											
+												<label class="radio-inline">
+												<input type="radio" name="radio_outro" value="" class="grey">
+													Não
+												</label>
+											</div>
+
+											<div class="col-md-6">
+												<div class="form-group" >
+													<div class="input-group">
+														<span class="input-group-addon">Valor Mensal</span>
+														<input type="text" name="" id="" class="form-control">
+													</div>
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
 
 										
 									</div><!-- fim container -->
