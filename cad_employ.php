@@ -212,7 +212,7 @@ include 'header.php';
 										</div>
 
 										<div class="col-md-12">
-											<div class="form-group col-md-6">
+											<div class="form-group col-md-4">
 												<div class="input-group">
 													<span class="input-group-addon">Nome Completo</span>
 													<input class="form-control" type="text" id="Nome">
@@ -1382,6 +1382,415 @@ include 'header.php';
 													</div>
 												</div>
 											</div>
+										</div><!-- fim-col-12 -->
+
+										<!--######### BLOCO 10 ######### -->
+										<div class="form-group col-md-12  bg_form">
+											<p>Dados do último emprego com registro</p>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group col-md-6">
+												<div class="input-group">
+													<span class="input-group-addon">Nº CNPJ:</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+
+											<div class="form-group col-md-6">
+												<div class="input-group">
+													<span class="input-group-addon">Empresa / Razão Social:</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+
+										<div class="col-md-12">
+											<div class="form-group col-md-4">
+												<div class="input-group">
+													<span class="input-group-addon">Data de Admissão:</span>
+													<input class="form-control" type="date" id="Nome">
+												</div>
+											</div>
+
+											<div class="form-group col-md-4">
+												<div class="input-group">
+													<span class="input-group-addon">Data Saída:</span>
+													<input class="form-control" type="date" id="Nome">
+												</div>
+											</div>
+
+											<div class="form-group col-md-4">
+												<div class="input-group">
+													<span class="input-group-addon">Nº Matrícula/Registro</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+
+										<!--######### BLOCO 11 ######### -->
+										<div class="form-group col-md-12  bg_form">
+											<p>Para estrangeiro</p>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon">País de Origem:</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon">Data Chegada ao Brasil:</span>
+													<input class="form-control" type="date" id="Nome">
+												</div>
+											</div>
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon">Nº do Passaporte:</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon">Orgão Emissor:</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+										<div class="col-md-12">
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon">Data Expedição</span>
+													<input class="form-control" type="date" id="Nome">
+												</div>
+											</div>
+
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon">Vencimento</span>
+													<input class="form-control" type="date" id="Nome">
+												</div>
+											</div>
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon">RNE nº</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon">Validade até</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+										<div class="col-md-12">
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon">Tipo de Visto:</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span >Tem filhos com brasileiro(a)? </span>
+													
+														<label class="radio-inline">
+														<input type="radio" name="radio_filho" value="" class="grey">
+															Sim
+														</label>
+													
+														<label class="radio-inline">
+														<input type="radio" name="radio_filho" value="" class="grey">
+															Não
+														</label>
+												</div>
+											</div>
+
+											<div class="form-group col-md-6">
+												<div class="input-group">
+													<span class="input-group-addon">Quantos</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+										<div class="col-md-12">
+											<div class="form-group col-md-6">
+												<div class="input-group">
+													<span class="input-group-addon">Em caso de estrangeiro naturalizado brasileiro, informar o Nº RIC</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon">Órgão Emissor</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon">Data Emissão</span>
+													<input class="form-control" type="text" id="Nome">
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+
+										<!--######### BLOCO 12 ######### -->
+										<div class="form-group col-md-12  bg_form">
+											<p>Documentos necessários para admissão</p>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-sm-6">
+													<div class="tabbable tabs-left">
+														<ul id="myTab3" class="nav nav-tabs tab-green">
+															<li class="active">
+																<a href="#panel_tab4_example1" data-toggle="tab">
+																	<i class="pink fa fa-dashboard"></i>  Carteira de Trabalho - CTPS
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example2" data-toggle="tab">
+																	<i class="blue fa fa-user"></i> Foto recente 3x4
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example3" data-toggle="tab">
+																	<i class="fa fa-rocket"></i> Comprovante de Endereço atual
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example4" data-toggle="tab">
+																	<i class="fa fa-rocket"></i> Título de eleitor
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example5" data-toggle="tab">
+																	<i class="fa fa-rocket"></i> Certificado de reservista
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example6" data-toggle="tab">
+																	<i class="fa fa-rocket"></i> Certidão de Casamento
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example7" data-toggle="tab">
+																	<i class="fa fa-rocket"></i> R.G.
+																</a>
+															</li>
+														</ul>
+														<div class="tab-content">
+															<div class="tab-pane active" id="panel_tab4_example1">
+																<div class="col-md-12">
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">CTPS</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">CTPS</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																</div><!-- fim-col-12 -->
+															</div>
+															<div class="tab-pane" id="panel_tab4_example2">
+																<div class="form-group col-md-12">
+																		<label>
+																			Foto
+																		</label>
+																		<div data-provides="fileupload" class="fileupload fileupload-new">
+																			<span class="btn btn-file btn-light-grey"><i class="fa fa-folder-open-o"></i> <span class="fileupload-new">Select file</span><span class="fileupload-exists">Change</span>
+																				<input type="file">
+																			</span>
+																			<span class="fileupload-preview"></span>
+																			<a style="float: none" data-dismiss="fileupload" class="close fileupload-exists" href="#">
+																				&times;
+																			</a>
+																		</div>
+																		<span class="help-block">
+																			Example block-level help text here.
+																		</span>
+																</div>
+															</div>
+															<div class="tab-pane" id="panel_tab4_example3">
+																<div class="form-group col-md-12">
+																		<label>
+																			Comprovante endereço
+																		</label>
+																		<div data-provides="fileupload" class="fileupload fileupload-new">
+																			<span class="btn btn-file btn-light-grey"><i class="fa fa-folder-open-o"></i> <span class="fileupload-new">Select file</span><span class="fileupload-exists">Change</span>
+																				<input type="file">
+																			</span>
+																			<span class="fileupload-preview"></span>
+																			<a style="float: none" data-dismiss="fileupload" class="close fileupload-exists" href="#">
+																				&times;
+																			</a>
+																		</div>
+																		<span class="help-block">
+																			Example block-level help text here.
+																		</span>
+																</div>
+															</div>
+															<div class="tab-pane" id="panel_tab4_example4">
+																<div class="col-md-12">
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Titulo Eleitor</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Titulo Eleitor</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																</div><!-- fim-col-12 -->
+															</div>
+															<div class="tab-pane" id="panel_tab4_example5">
+																<div class="col-md-12">
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Reservista</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Reservista</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																</div><!-- fim-col-12 -->
+															</div>
+															<div class="tab-pane" id="panel_tab4_example6">
+																<div class="col-md-12">
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Certidão</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Certidão</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																</div><!-- fim-col-12 -->
+															</div>
+															<div class="tab-pane" id="panel_tab4_example7">
+																<div class="col-md-12">
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">número RG</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Data de emissão</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																</div><!-- fim-col-12 -->
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-sm-6">
+													<div class="tabbable tabs-left">
+														<ul id="myTab3" class="nav nav-tabs tab-green">
+															<li class="">
+																<a href="#panel_tab4_example8" data-toggle="tab">
+																	<i class="fa fa-rocket"></i> C.P.F.
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example9" data-toggle="tab">
+																	<i class="fa fa-rocket"></i> Cartão de Inscrição no PIS/PASEP
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example10" data-toggle="tab">
+																	<i class="fa fa-rocket"></i> CNH
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example11" data-toggle="tab">
+																	<i class="fa fa-rocket"></i>  Registro DRT
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example12" data-toggle="tab">
+																	<i class="fa fa-rocket"></i> Certidão de Nascimento
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example13" data-toggle="tab">
+																	<i class="fa fa-rocket"></i> Caderneta de Vacinação
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example14" data-toggle="tab">
+																	<i class="fa fa-rocket"></i>  Cartão do SUS
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example15" data-toggle="tab">
+																	<i class="fa fa-rocket"></i> Certidão de Nascimento
+																</a>
+															</li>
+														</ul>
+														<div class="tab-content">
+															<div class="tab-pane" id="panel_tab4_example8">
+																content 8
+															</div>
+															<div class="tab-pane" id="panel_tab4_example9">
+																Content 9
+															</div>
+															<div class="tab-pane" id="panel_tab4_example10">
+																Content 10
+															</div>
+															<div class="tab-pane" id="panel_tab4_example11">
+																Content 11
+															</div>
+															<div class="tab-pane" id="panel_tab4_example12">
+																Content 12
+															</div>
+															<div class="tab-pane" id="panel_tab4_example13">
+																Content 13
+															</div>
+															<div class="tab-pane" id="panel_tab4_example14">
+																Content 14
+															</div>
+															<div class="tab-pane" id="panel_tab4_example15">
+																Content 15
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
 										</div><!-- fim-col-12 -->
 
 										
