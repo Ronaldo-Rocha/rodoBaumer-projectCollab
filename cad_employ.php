@@ -904,7 +904,6 @@ include 'header.php';
 													</label>
 											</div>
 
-
 										</div><!-- fim-col-12 -->
 
 										<div class="form-group col-md-12  bg_form">
@@ -1025,6 +1024,174 @@ include 'header.php';
 											</div>
 
 										</div><!-- fim-col-12 -->
+
+										<!--######### BLOCO 7 ######### -->
+										<div class="form-group col-md-12  bg_form">
+											<p>Relação de dependentes para imposto de renda e salario familia</p>
+										</div>
+										<div class="col-md-12">
+											
+											<div class="form-group col-md-12">
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">Nome</span>
+														<input type="text" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">Parentesco</span>
+														<input type="text" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">Data de nascimento</span>
+														<input type="date" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">CPF</span>
+														<input type="text" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+											</div>
+
+											<div class="form-group col-md-12">
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">Nome</span>
+														<input type="text" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">Parentesco</span>
+														<input type="text" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">Data de nascimento</span>
+														<input type="date" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">CPF</span>
+														<input type="text" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+											</div>
+
+											<div class="form-group col-md-12">
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">Nome</span>
+														<input type="text" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">Parentesco</span>
+														<input type="text" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">Data de nascimento</span>
+														<input type="date" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">CPF</span>
+														<input type="text" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+											</div>
+
+											<div class="form-group col-md-12">
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">Nome</span>
+														<input type="text" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">Parentesco</span>
+														<input type="text" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">Data de nascimento</span>
+														<input type="date" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+
+												<div class="col-md-3">
+													<div class="form-group input-group">
+														<span class="input-group-addon">CPF</span>
+														<input type="text" name="" id="" class="form-control" placeholder="">
+													</div>
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+
+										<!--######### BLOCO 8 ######### -->
+										<div class="form-group col-md-12  bg_form">
+											<p>OBSERVAÇÃO SOBRE DEPENDENDENTE(S): Se Trabalhar, não será(ão) considerado(s) dependente(s)</p>
+										</div>
+										<div class="col-md-12">
+											<div class="panel panel-default">
+												<div class="panel-heading">
+													<h4 class="panel-title center">
+													<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+														<i class="icon-arrow"></i>
+														Ver mais detalhes +
+													</a></h4>
+												</div>
+												<div id="collapseTwo" class="panel-collapse collapse">
+													<div class="panel-body" style="font-size: 1.5rem ;">
+														<ol>
+															<li>Será considerado dependente: Companheiro(a) com quem o contribuinte tenha filho ou viva há mais de 5 anos, ou cônjuge;</li>
+															<li>filho(a) ou enteado(a), até 21 anos de idade, ou, em qualquer idade, quando incapacitado física ou mentalmente para o trabalho;</li>
+															<li>filho(a) ou enteado(a), se ainda estiverem cursando ensino superior ou escola técnica de segundo grau, até 24 anos de idade:</li>
+															<li>irmão(ã), neto(a) ou bisneto(a), sem arrimo dos pais, de quem o contribuinte detenha a guarda judicial, até 21 anos, ou em qualquer
+															idade, quando incapacitado física ou mentalmente para o trabalho;</li>
+															<li>irmão(ã), neto(a) ou bisneto(a), sem arrimo dos pais, com idade de 21 anos até 24 anos, se ainda estiver cursando estabelecimento
+															de ensino superior ou escola técnica de segundo grau, desde que o contribuinte tenha detido sua guarda judicial até os 21 anos.</li>
+															<li>pais, avós e bisavós que tenham recebido rendimentos, tributáveis ou não, até o limite de isenção do imposto;</li>
+															<li>menor pobre até 21 anos que o contribuinte crie e eduque e de quem detenha a guarda judicial;</li>
+															<li>pessoa absolutamente incapaz, da qual o contribuinte seja tutor ou curador. </li>
+														</ol>
+													</div>
+												</div>
+											</div>
+										</div><!-- fim-col-12 -->
+
+										<!--######### BLOCO 9 ######### -->
+										<div class="form-group col-md-12  bg_form">
+											<p>Benefícios</p>
+										</div>
 
 										
 									</div><!-- fim container -->
