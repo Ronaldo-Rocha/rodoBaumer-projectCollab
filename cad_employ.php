@@ -376,27 +376,37 @@ include 'header.php';
 											<p>raça/cor</p>
 										</div>
 
-										<div class="col-md-12 justify-content-around">
-												<label class="radio-inline">
-													<input type="radio" value="" name="optionsRadios4" class="grey" >
-													Branca
-												</label>
-												<label class="radio-inline">
-													<input type="radio" value="" name="optionsRadios4" class="grey" >
-													Preta
-												</label>
-												<label class="radio-inline">
-													<input type="radio" value="" name="optionsRadios4" class="grey" >
-													Parda
-												</label>
-												<label class="radio-inline">
-													<input type="radio" value="" name="optionsRadios4" class="grey" >
-													Amarela 
-												</label>
-												<label class="radio-inline">
-													<input type="radio" value="" name="optionsRadios4" class="grey" >
-													Indígena
-												</label>
+										<div class="col-md-12">
+												<div class="col-md-3">
+													<label class="radio-inline">
+														<input type="radio" value="" name="optionsRadios4" class="grey" >
+														Branca
+													</label>
+												</div>
+												<div class="col-md-2">
+													<label class="radio-inline">
+														<input type="radio" value="" name="optionsRadios4" class="grey" >
+														Preta
+													</label>
+												</div>
+												<div class="col-md-3">
+													<label class="radio-inline">
+														<input type="radio" value="" name="optionsRadios4" class="grey" >
+														Parda
+													</label>
+												</div>
+												<div class="col-md-2">
+													<label class="radio-inline">
+														<input type="radio" value="" name="optionsRadios4" class="grey" >
+														Amarela 
+													</label>
+												</div>
+												<div class="col-md-2">
+													<label class="radio-inline">
+														<input type="radio" value="" name="optionsRadios4" class="grey" >
+														Indígena
+													</label>
+												</div>
 										</div><!-- fim-col-12 -->
 
 										<!-- SUB BLOCO 2-2 -->
@@ -404,27 +414,41 @@ include 'header.php';
 											<p>Deficiência</p>
 										</div>
 
-										<div class="col-md-12 justify-content-around">
+										<div class="col-md-12">
+											<div class="col-md-3">
 												<label class="radio-inline">
 													<input type="radio" value="" name="optionsRadios5" class="grey" >
 													Física
 												</label>
+											</div>
+
+											<div class="col-md-2">
 												<label class="radio-inline">
 													<input type="radio" value="" name="optionsRadios5" class="grey" >
 													Auditiva
 												</label>
+											</div>
+
+											<div class="col-md-2">
 												<label class="radio-inline">
 													<input type="radio" value="" name="optionsRadios5" class="grey" >
 													Visual
 												</label>
+											</div>
+
+											<div class="col-md-3">
 												<label class="radio-inline">
 													<input type="radio" value="" name="optionsRadios5" class="grey" >
 													Reabilitado 
 												</label>
+											</div>
+											<div class="col-md-2">
 												<label class="radio-inline">
 													<input type="radio" value="" name="optionsRadios5" class="grey" >
 													Nenhuma
 												</label>
+											</div>
+
 										</div><!-- fim-col-12 -->
 
 										<!--######### BLOCO 3 ######### -->
@@ -662,27 +686,42 @@ include 'header.php';
 											<p>Horário de trabalho</p>
 										</div>
 										<div class="col-md-12">
-											<div class="col-md-12 justify-content-around">
-												<label class="radio-inline">
-													<input type="radio" value="" name="optionsRadiosHorario" class="grey" >
-													Normal
-												</label>
-												<label class="radio-inline">
-													<input type="radio" value="" name="optionsRadiosHorario" class="grey" >
-													Escala revezamento (06hrs diárias)
-												</label>
-												<label class="radio-inline">
-													<input type="radio" value="" name="optionsRadiosHorario" class="grey" >
-													Escala 12x36 (indicar dia de folga)
-												</label>
-												<label class="radio-inline">
-													<input type="radio" value="" name="optionsRadiosHorario" class="grey" >
-													Sábados alternados 
-												</label>
-												<label class="radio-inline">
-													<input type="radio" value="" name="optionsRadiosHorario" class="grey" >
-													EXTERNO
-												</label>
+											<div class="col-md-12">
+												<div class="col-md-2">
+													<label class="radio-inline">
+													<input type="radio" name="radio_vale" value="" class="grey">
+														Normal
+													</label>
+												</div>
+												
+												<div class="col-md-3">
+													<label class="radio-inline">
+													<input type="radio" name="radio_vale" value="" class="grey">
+														Escala Revezamento (06 Hrs diárias) 
+													</label>
+												</div>
+
+												<div class="col-md-3">
+													<label class="radio-inline">
+													<input type="radio" name="radio_vale" value="" class="grey">
+														Escala 12x36 (Indicar dia da Folga)
+													</label>
+												</div>
+
+												<div class="col-md-2">
+													<label class="radio-inline">
+													<input type="radio" name="radio_vale" value="" class="grey">
+														Sábados Alternados
+													</label>
+												</div>
+
+												<div class="col-md-2">
+													<label class="radio-inline">
+													<input type="radio" name="radio_vale" value="" class="grey">
+														EXTERNO
+													</label>
+												</div>
+
 											</div>
 										
 											<div class="col-md-12">
@@ -696,165 +735,216 @@ include 'header.php';
 													</div>
 													<div id="collapseOne" class="panel-collapse collapse">
 														<div class="panel-body">
-															<!-- col-1 -->
-															<div class="col-md-4">
-																<div class="form-group input-group">
-																	<div class="input-group-addon">2ªfeira | Entrada </div> 
-																	<input id="text" name="text" type="time" class="form-control">
+															
+															<div class="col-md-12">
+																<div class="form-group col-md-3">
+																	<div class=" input-group">
+																		<div class="input-group-addon">2ªfeira | Entrada </div> 
+																		<input id="text" name="text" type="time" class="form-control">
+																	</div>
 																</div>
-																<div class="form-group input-group">
-																	<div class="input-group-addon">3ªfeira | Entrada</div> 
-																	<input id="text" name="text" type="time" class="form-control">
-																</div>
-																<div class="form-group input-group">
-																	<div class="input-group-addon">4ªfeira | Entrada</div> 
-																	<input id="text" name="text" type="time" class="form-control">
-																</div>
-																<div class="form-group input-group">
-																	<div class="input-group-addon">5ªfeira | Entrada</div> 
-																	<input id="text" name="text" type="time" class="form-control">
-																</div>
-																<div class="form-group input-group">
-																	<div class="input-group-addon">6ªfeira | Entrada</div> 
-																	<input id="text" name="text" type="time" class="form-control">
-																</div>
-																<div class="form-group input-group">
-																	<div class="input-group-addon">Sábado | Entrada</div> 
-																	<input id="text" name="text" type="time" class="form-control">
-																</div>
-																<div class="form-group input-group">
-																	<div class="input-group-addon">Domingo | Entrada</div> 
-																	<input id="text" name="text" type="time" class="form-control">
-																</div>
-															</div>
-															<!-- col-2 -->
-															<div class="col-md-5">
-																<div class="form-group col-md-6">
-																	<div class="input-group">
-																		<span class="input-group-addon">Intervalo / Refeição</span>
-																		<input type="time">
-																	</div>
-																</div>	
-																
-																<div class="form-group col-md-6">
-																	<div class="input-group">
-																		<span class="input-group-addon">ás</span>
-																		<input type="time">
-																	</div>
-																</div>	
-																
-																<div class="form-group col-md-6">
-																	<div class="input-group">
-																		<span class="input-group-addon">Intervalo / Refeição</span>
-																		<input type="time">
-																	</div>
-																</div>	
-																
-																<div class="form-group col-md-6">
-																	<div class="input-group">
-																		<span class="input-group-addon">ás</span>
-																		<input type="time">
-																	</div>
-																</div>	
-																<div class="form-group col-md-6">
-																	<div class="input-group">
-																		<span class="input-group-addon">Intervalo / Refeição</span>
-																		<input type="time">
-																	</div>
-																</div>	
-																
-																<div class="form-group col-md-6">
-																	<div class="input-group">
-																		<span class="input-group-addon">ás</span>
-																		<input type="time">
-																	</div>
-																</div>	
-																<div class="form-group col-md-6">
-																	<div class="input-group">
-																		<span class="input-group-addon">Intervalo / Refeição</span>
-																		<input type="time">
-																	</div>
-																</div>	
-																
-																<div class="form-group col-md-6">
-																	<div class="input-group">
-																		<span class="input-group-addon">ás</span>
-																		<input type="time">
-																	</div>
-																</div>	
-																<div class="form-group col-md-6">
-																	<div class="input-group">
-																		<span class="input-group-addon">Intervalo / Refeição</span>
-																		<input type="time">
-																	</div>
-																</div>	
-																
-																<div class="form-group col-md-6">
-																	<div class="input-group">
-																		<span class="input-group-addon">ás</span>
-																		<input type="time">
-																	</div>
-																</div>	
-																<div class="form-group col-md-6">
-																	<div class="input-group">
-																		<span class="input-group-addon">Intervalo / Refeição</span>
-																		<input type="time">
-																	</div>
-																</div>	
-																
-																<div class="form-group col-md-6">
-																	<div class="input-group">
-																		<span class="input-group-addon">ás</span>
-																		<input type="time">
-																	</div>
-																</div>	
-																<div class="form-group col-md-6">
-																	<div class="input-group">
-																		<span class="input-group-addon">Intervalo / Refeição</span>
-																		<input type="time">
-																	</div>
-																</div>	
-																
-																<div class="form-group col-md-6">
-																	<div class="input-group">
-																		<span class="input-group-addon">ás</span>
-																		<input type="time">
-																	</div>
-																</div>	
 
-															</div>
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<span class="input-group-addon">Intervalo / Refeição</span>
+																		<input type="time" class="form-control">
+																	</div>
+																</div>
 
-															<!-- col-3 -->
-															<div class="col-md-3">
-																<div class="form-group input-group">
-																	<div class="input-group-addon">Saída </div> 
-																	<input id="text"  type="time" class="form-control">
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<span class="input-group-addon">ás</span>
+																		<input type="time" class="form-control">
+																	</div>
 																</div>
-																<div class="form-group input-group">
-																	<div class="input-group-addon">Saída</div> 
-																	<input id="text"  type="time" class="form-control">
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<div class="input-group-addon">Saída </div> 
+																		<input id="text"  type="time" class="form-control">
+																	</div>
 																</div>
-																<div class="form-group input-group">
-																	<div class="input-group-addon">Saída</div> 
-																	<input id="text"  type="time" class="form-control">
+															</div><!-- fim-col-12 -->
+															<hr>
+															<div class="col-md-12">
+																<div class="form-group col-md-3">
+																	<div class=" input-group">
+																		<div class="input-group-addon">3ªfeira | Entrada </div> 
+																		<input id="text" name="text" type="time" class="form-control">
+																	</div>
 																</div>
-																<div class="form-group input-group">
-																	<div class="input-group-addon">Saída</div> 
-																	<input id="text"  type="time" class="form-control">
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<span class="input-group-addon">Intervalo / Refeição</span>
+																		<input type="time" class="form-control">
+																	</div>
 																</div>
-																<div class="form-group input-group">
-																	<div class="input-group-addon">Saída</div> 
-																	<input id="text"  type="time" class="form-control">
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<span class="input-group-addon">ás</span>
+																		<input type="time" class="form-control">
+																	</div>
 																</div>
-																<div class="form-group input-group">
-																	<div class="input-group-addon">Saída</div> 
-																	<input id="text"  type="time" class="form-control">
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<div class="input-group-addon">Saída </div> 
+																		<input id="text"  type="time" class="form-control">
+																	</div>
 																</div>
-																<div class="form-group input-group">
-																	<div class="input-group-addon">Saída</div> 
-																	<input id="text"  type="time" class="form-control">
+															</div><!-- fim-col-12 -->
+															<hr>
+															<div class="col-md-12">
+																<div class="form-group col-md-3">
+																	<div class=" input-group">
+																		<div class="input-group-addon">4ªfeira | Entrada </div> 
+																		<input id="text" name="text" type="time" class="form-control">
+																	</div>
 																</div>
-															</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<span class="input-group-addon">Intervalo / Refeição</span>
+																		<input type="time" class="form-control">
+																	</div>
+																</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<span class="input-group-addon">ás</span>
+																		<input type="time" class="form-control">
+																	</div>
+																</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<div class="input-group-addon">Saída </div> 
+																		<input id="text"  type="time" class="form-control">
+																	</div>
+																</div>
+															</div><!-- fim-col-12 -->
+															<hr>
+															<div class="col-md-12">
+																<div class="form-group col-md-3">
+																	<div class=" input-group">
+																		<div class="input-group-addon">5ªfeira | Entrada </div> 
+																		<input id="text" name="text" type="time" class="form-control">
+																	</div>
+																</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<span class="input-group-addon">Intervalo / Refeição</span>
+																		<input type="time" class="form-control">
+																	</div>
+																</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<span class="input-group-addon">ás</span>
+																		<input type="time" class="form-control">
+																	</div>
+																</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<div class="input-group-addon">Saída </div> 
+																		<input id="text"  type="time" class="form-control">
+																	</div>
+																</div>
+															</div><!-- fim-col-12 -->
+															<hr>
+															<div class="col-md-12">
+																<div class="form-group col-md-3">
+																	<div class=" input-group">
+																		<div class="input-group-addon">6ªfeira | Entrada </div> 
+																		<input id="text" name="text" type="time" class="form-control">
+																	</div>
+																</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<span class="input-group-addon">Intervalo / Refeição</span>
+																		<input type="time" class="form-control">
+																	</div>
+																</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<span class="input-group-addon">ás</span>
+																		<input type="time" class="form-control">
+																	</div>
+																</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<div class="input-group-addon">Saída </div> 
+																		<input id="text"  type="time" class="form-control">
+																	</div>
+																</div>
+															</div><!-- fim-col-12 -->
+															<hr>
+															<div class="col-md-12">
+																<div class="form-group col-md-3">
+																	<div class=" input-group">
+																		<div class="input-group-addon">Sábado | Entrada </div> 
+																		<input id="text" name="text" type="time" class="form-control">
+																	</div>
+																</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<span class="input-group-addon">Intervalo / Refeição</span>
+																		<input type="time" class="form-control">
+																	</div>
+																</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<span class="input-group-addon">ás</span>
+																		<input type="time" class="form-control">
+																	</div>
+																</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<div class="input-group-addon">Saída </div> 
+																		<input id="text"  type="time" class="form-control">
+																	</div>
+																</div>
+															</div><!-- fim-col-12 -->
+															<hr>
+															<div class="col-md-12">
+																<div class="form-group col-md-3">
+																	<div class=" input-group">
+																		<div class="input-group-addon">Domingo | Entrada </div> 
+																		<input id="text" name="text" type="time" class="form-control">
+																	</div>
+																</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<span class="input-group-addon">Intervalo / Refeição</span>
+																		<input type="time" class="form-control">
+																	</div>
+																</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<span class="input-group-addon">ás</span>
+																		<input type="time" class="form-control">
+																	</div>
+																</div>
+
+																<div class="form-group col-md-3">
+																	<div class="input-group">
+																		<div class="input-group-addon">Saída </div> 
+																		<input id="text"  type="time" class="form-control">
+																	</div>
+																</div>
+															</div><!-- fim-col-12 -->
 														</div>
 													</div>
 												</div>
@@ -1297,7 +1387,7 @@ include 'header.php';
 											<div class="col-md-9">
 												<div class="form-group" >
 													<div class="input-group">
-														<span class="input-group-addon">Valor do Desconto Mensal, á ser informado em planilha</span>
+														<span class="input-group-addon">Valor do Desconto Mensal</span>
 														<input type="text" name="" id="" class="form-control">
 													</div>
 												</div>
@@ -1321,7 +1411,7 @@ include 'header.php';
 											<div class="col-md-9">
 												<div class="form-group" >
 													<div class="input-group">
-														<span class="input-group-addon">Valor do Desconto Mensal, á ser informado em planilha</span>
+														<span class="input-group-addon">Valor do Desconto Mensal</span>
 														<input type="text" name="" id="" class="form-control">
 													</div>
 												</div>
@@ -1519,9 +1609,10 @@ include 'header.php';
 										<div class="col-md-12">
 											<div class="form-group col-md-6">
 												<div class="input-group">
-													<span class="input-group-addon">Em caso de estrangeiro naturalizado brasileiro, informar o Nº RIC</span>
+													<span class="input-group-addon">Nº RIC</span>
 													<input class="form-control" type="text" id="Nome">
 												</div>
+												<span id="textHelpBlock" class="help-block"> <i class="fa fa-info-circle"></i> Em caso de estrangeiro naturalizado brasileiro, informar o RIC </span>
 											</div>
 
 											<div class="form-group col-md-3">
@@ -1552,42 +1643,42 @@ include 'header.php';
 														<ul id="myTab3" class="nav nav-tabs tab-green">
 															<li class="active">
 																<a href="#panel_tab4_example1" data-toggle="tab">
-																	<i class="pink fa fa-dashboard"></i>  Carteira de Trabalho - CTPS
+																	<i class="fa clip-libreoffice"></i>  Carteira de Trabalho - CTPS
 																</a>
 															</li>
 															<li class="">
 																<a href="#panel_tab4_example2" data-toggle="tab">
-																	<i class="blue fa fa-user"></i> Foto recente 3x4
+																	<i class="fa clip-libreoffice"></i> Foto recente 3x4
 																</a>
 															</li>
 															<li class="">
 																<a href="#panel_tab4_example3" data-toggle="tab">
-																	<i class="fa fa-rocket"></i> Comprovante de Endereço atual
+																	<i class="fa clip-libreoffice"></i> Comprovante de Endereço atual
 																</a>
 															</li>
 															<li class="">
 																<a href="#panel_tab4_example4" data-toggle="tab">
-																	<i class="fa fa-rocket"></i> Título de eleitor
+																	<i class="fa clip-libreoffice"></i> Título de eleitor
 																</a>
 															</li>
 															<li class="">
 																<a href="#panel_tab4_example5" data-toggle="tab">
-																	<i class="fa fa-rocket"></i> Certificado de reservista
+																	<i class="fa clip-libreoffice"></i> Certificado de reservista
 																</a>
 															</li>
 															<li class="">
 																<a href="#panel_tab4_example6" data-toggle="tab">
-																	<i class="fa fa-rocket"></i> Certidão de Casamento
+																	<i class="fa clip-libreoffice"></i> Certidão de Casamento
 																</a>
 															</li>
 															<li class="">
 																<a href="#panel_tab4_example7" data-toggle="tab">
-																	<i class="fa fa-rocket"></i> R.G.
+																	<i class="fa clip-libreoffice"></i> R.G.
 																</a>
 															</li>
 															<li class="">
 																<a href="#panel_tab4_example8" data-toggle="tab">
-																	<i class="fa fa-rocket"></i> CPF
+																	<i class="fa clip-libreoffice"></i> CPF
 																</a>
 															</li>
 														</ul>
@@ -1741,48 +1832,48 @@ include 'header.php';
 														</div>
 													</div>
 												</div>
-
+											<!--############# TABS 2 #############-->
 												<div class="col-sm-6">
 													<div class="tabbable tabs-left">
 														<ul id="myTab3" class="nav nav-tabs tab-green">
 															<li class="">
 																<a href="#panel_tab4_example16" data-toggle="tab">
-																	<i class="fa fa-rocket"></i> CPF Filhos
+																	<i class="fa clip-libreoffice"></i> CPF Filhos
 																</a>
 															</li>
 															<li class="">
 																<a href="#panel_tab4_example9" data-toggle="tab">
-																	<i class="fa fa-rocket"></i> Cartão de Inscrição no PIS/PASEP
+																	<i class="fa clip-libreoffice"></i> Cartão de Inscrição no PIS/PASEP
 																</a>
 															</li>
 															<li class="">
 																<a href="#panel_tab4_example10" data-toggle="tab">
-																	<i class="fa fa-rocket"></i> CNH
+																	<i class="fa clip-libreoffice"></i> CNH
 																</a>
 															</li>
 															<li class="">
 																<a href="#panel_tab4_example11" data-toggle="tab">
-																	<i class="fa fa-rocket"></i>  Registro DRT
+																	<i class="fa clip-libreoffice"></i>  Registro DRT
 																</a>
 															</li>
 															<li class="">
 																<a href="#panel_tab4_example12" data-toggle="tab">
-																	<i class="fa fa-rocket"></i> Certidão de Nascimento
+																	<i class="fa clip-libreoffice"></i> Certidão de Nascimento
 																</a>
 															</li>
 															<li class="">
 																<a href="#panel_tab4_example13" data-toggle="tab">
-																	<i class="fa fa-rocket"></i> Caderneta de Vacinação
+																	<i class="fa clip-libreoffice"></i> Caderneta de Vacinação
 																</a>
 															</li>
 															<li class="">
 																<a href="#panel_tab4_example14" data-toggle="tab">
-																	<i class="fa fa-rocket"></i>  Cartão do SUS
+																	<i class="fa clip-libreoffice"></i>  Cartão do SUS
 																</a>
 															</li>
 															<li class="">
 																<a href="#panel_tab4_example15" data-toggle="tab">
-																	<i class="fa fa-rocket"></i> Certidão de Nascimento
+																	<i class="fa clip-libreoffice"></i> Certidão de Nascimento
 																</a>
 															</li>
 														</ul>
@@ -1987,11 +2078,8 @@ include 'header.php';
 													</div>
 												</div>
 												
-											</div>
-
+											</div><!-- fim-row -->
 										</div><!-- fim-col-12 -->
-
-										
 									</div><!-- fim container -->
 
 									

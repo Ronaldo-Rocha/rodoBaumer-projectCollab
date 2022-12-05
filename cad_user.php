@@ -145,24 +145,23 @@ include 'header.php';
 									<div class="form-group col-md-12">
 										<div class="col-md-4"></div>
 										<div class="col-md-4">
-											<div class="col-md-offset-4">
-												<label>
-													Foto
-												</label>
+											<!-- FIM AVATAR -->
+											<div class="form-group avatarImg">
+												<div class="fileupload-new thumbnail" style="width: 150px; height: 150px;"><img src="assets/images/avatar-1-xl.jpg" alt="">
+												</div>
 												<div class="fileupload fileupload-new" data-provides="fileupload">
-													<div class="fileupload-new thumbnail" style="width: 150px; height: 150px;"><img src="assets/images/avatar-1-xl.jpg" alt="">
-													</div>
 													<div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 150px; max-height: 150px; line-height: 20px;"></div>
 													<div class="user-edit-image-buttons">
-														<span class="btn btn-light-grey btn-file"><span class="fileupload-new"><i class="fa fa-picture"></i> Selecionar foto</span><span class="fileupload-exists"><i class="fa fa-picture"></i> Trocar</span>
+														<span class="btn btn-light-grey btn-file"><span class="fileupload-new"><i class="fa fa-picture"></i> Selecionar Foto</span><span class="fileupload-exists"><i class="fa fa-picture"></i> Mudar</span>
 															<input type="file">
 														</span>
 														<a href="#" class="btn fileupload-exists btn-light-grey" data-dismiss="fileupload">
-															<i class="fa fa-times"></i> Deletar
+															<i class="fa fa-times"></i> Remover
 														</a>
 													</div>
 												</div>
 											</div>
+											<!-- FIM AVATAR -->
 										</div>
 										<div class="col-md-4"></div>
 									</div>

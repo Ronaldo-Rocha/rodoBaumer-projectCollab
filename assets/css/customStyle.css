@@ -27,7 +27,7 @@
 .justify-content-around{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+
 }
 
 .bg_form , p{
