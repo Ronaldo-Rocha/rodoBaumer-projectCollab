@@ -1545,6 +1545,8 @@ include 'header.php';
 										</div>
 										<div class="col-md-12">
 											<div class="row">
+
+											<!--############# TABS 1 #############-->
 												<div class="col-sm-6">
 													<div class="tabbable tabs-left">
 														<ul id="myTab3" class="nav nav-tabs tab-green">
@@ -1581,6 +1583,11 @@ include 'header.php';
 															<li class="">
 																<a href="#panel_tab4_example7" data-toggle="tab">
 																	<i class="fa fa-rocket"></i> R.G.
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example8" data-toggle="tab">
+																	<i class="fa fa-rocket"></i> CPF
 																</a>
 															</li>
 														</ul>
@@ -1620,7 +1627,7 @@ include 'header.php';
 																		<span class="help-block">
 																			Example block-level help text here.
 																		</span>
-																</div>
+																</div><!-- fim-col-12 -->
 															</div>
 															<div class="tab-pane" id="panel_tab4_example3">
 																<div class="form-group col-md-12">
@@ -1699,7 +1706,25 @@ include 'header.php';
 																<div class="col-md-12">
 																	<div class="form-group col-md-12">
 																		<div class="input-group">
-																			<span class="input-group-addon">número RG</span>
+																			<span class="input-group-addon">Número RG</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Data de emissão</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																</div><!-- fim-col-12 -->
+															</div>
+															<div class="tab-pane" id="panel_tab4_example8">
+																<div class="col-md-12">
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">CPF</span>
 																			<input class="form-control" type="text" id="Nome">
 																		</div>
 																	</div>
@@ -1721,8 +1746,8 @@ include 'header.php';
 													<div class="tabbable tabs-left">
 														<ul id="myTab3" class="nav nav-tabs tab-green">
 															<li class="">
-																<a href="#panel_tab4_example8" data-toggle="tab">
-																	<i class="fa fa-rocket"></i> C.P.F.
+																<a href="#panel_tab4_example16" data-toggle="tab">
+																	<i class="fa fa-rocket"></i> CPF Filhos
 																</a>
 															</li>
 															<li class="">
@@ -1762,33 +1787,206 @@ include 'header.php';
 															</li>
 														</ul>
 														<div class="tab-content">
-															<div class="tab-pane" id="panel_tab4_example8">
-																content 8
+															<div class="tab-pane" id="panel_tab4_example16">
+																<div class="col-md-12">
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">CPF</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Data de emissão</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																</div><!-- fim-col-12 -->
+																<div class="col-md-12">
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">CPF</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Data de emissão</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																</div><!-- fim-col-12 -->
+																<div class="col-md-12">
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">CPF</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Data de emissão</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																</div><!-- fim-col-12 -->
 															</div>
 															<div class="tab-pane" id="panel_tab4_example9">
-																Content 9
+																<div class="col-md-12">
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Número PIS/PASEP</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Número PIS/PASEP</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																</div><!-- fim-col-12 -->
 															</div>
 															<div class="tab-pane" id="panel_tab4_example10">
-																Content 10
+																<div class="col-md-12">
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">CNH</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Validade</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																</div><!-- fim-col-12 -->
 															</div>
 															<div class="tab-pane" id="panel_tab4_example11">
-																Content 11
+																<div class="col-md-12">
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">DRT</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">Validade</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																</div><!-- fim-col-12 -->
 															</div>
 															<div class="tab-pane" id="panel_tab4_example12">
-																Content 12
+																<div class="form-group col-md-12">
+																		<label>
+																			Certidão Nascimento
+																		</label>
+																		<div data-provides="fileupload" class="fileupload fileupload-new">
+																			<span class="btn btn-file btn-light-grey"><i class="fa fa-folder-open-o"></i> <span class="fileupload-new">Select file</span><span class="fileupload-exists">Change</span>
+																				<input type="file">
+																			</span>
+																			<span class="fileupload-preview"></span>
+																			<a style="float: none" data-dismiss="fileupload" class="close fileupload-exists" href="#">
+																				&times;
+																			</a>
+																		</div>
+																		<span class="help-block">
+																			Example block-level help text here.
+																		</span>
+																</div><!-- fim-col-12 -->
 															</div>
 															<div class="tab-pane" id="panel_tab4_example13">
-																Content 13
+																<div class="form-group col-md-12">
+																		<label>
+																			Caderneta Vacinação
+																		</label>
+																		<div data-provides="fileupload" class="fileupload fileupload-new">
+																			<span class="btn btn-file btn-light-grey"><i class="fa fa-folder-open-o"></i> <span class="fileupload-new">Select file</span><span class="fileupload-exists">Change</span>
+																				<input type="file">
+																			</span>
+																			<span class="fileupload-preview"></span>
+																			<a style="float: none" data-dismiss="fileupload" class="close fileupload-exists" href="#">
+																				&times;
+																			</a>
+																		</div>
+																		<span class="help-block">
+																			Example block-level help text here.
+																		</span>
+																</div><!-- fim-col-12 -->
 															</div>
 															<div class="tab-pane" id="panel_tab4_example14">
-																Content 14
+																<div class="col-md-12">
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">SUS</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																	<div class="form-group col-md-12">
+																		<div class="input-group">
+																			<span class="input-group-addon">SUS</span>
+																			<input class="form-control" type="text" id="Nome">
+																		</div>
+																	</div>
+
+																</div><!-- fim-col-12 -->
 															</div>
 															<div class="tab-pane" id="panel_tab4_example15">
-																Content 15
+																<div class="form-group col-md-12">
+																		<label>
+																			Certidão de Nascimento Filho / Dependente
+																		</label>
+																		<div data-provides="fileupload" class="fileupload fileupload-new">
+																			<span class="btn btn-file btn-light-grey"><i class="fa fa-folder-open-o"></i> <span class="fileupload-new">Select file</span><span class="fileupload-exists">Change</span>
+																				<input type="file">
+																			</span>
+																			<span class="fileupload-preview"></span>
+																			<a style="float: none" data-dismiss="fileupload" class="close fileupload-exists" href="#">
+																				&times;
+																			</a>
+																		</div>
+																		<span class="help-block">
+																			Example block-level help text here.
+																		</span>
+																</div><!-- fim-col-12 -->
+																<div class="form-group col-md-12">
+																		<label>
+																			Certidão de Nascimento Filho / Dependente
+																		</label>
+																		<div data-provides="fileupload" class="fileupload fileupload-new">
+																			<span class="btn btn-file btn-light-grey"><i class="fa fa-folder-open-o"></i> <span class="fileupload-new">Select file</span><span class="fileupload-exists">Change</span>
+																				<input type="file">
+																			</span>
+																			<span class="fileupload-preview"></span>
+																			<a style="float: none" data-dismiss="fileupload" class="close fileupload-exists" href="#">
+																				&times;
+																			</a>
+																		</div>
+																		<span class="help-block">
+																			Example block-level help text here.
+																		</span>
+																</div><!-- fim-col-12 -->
 															</div>
 														</div>
 													</div>
 												</div>
+												
 											</div>
 
 										</div><!-- fim-col-12 -->
