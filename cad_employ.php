@@ -432,64 +432,233 @@ include 'header.php';
 											<p>Grau de Instrução</p>
 										</div>
 										<div class="col-md-12">
-											<div class="col-md-3">
+											<div class="form-group col-md-2">
 												<label class="radio-inline">
 													<input type="radio" value="" name="optionsRadios7" class="grey" >
 													Analfabeto
 												</label>
 											</div>
-											<div class="col-md-3">
+											<div class="form-group col-md-2">
 
 												<label class="radio">
 													<input type="radio" value="" name="optionsRadios7" class="grey" >
 													1º Grau (Fundamental)
 												</label>
 
-												<label class="radio">
-													<input type="radio" value="" name="optionsRadios6" class="grey" >
-													Completo
-												</label>
-												<label class="radio">
-													<input type="radio" value="" name="optionsRadios6" class="grey" >
-													Incompleto
-												</label>
+												<div class="radio-grau-ml">
+													<label class="radio">
+														<input type="radio" value="" name="optionsRadios6" class="grey" >
+														Completo
+													</label>
+													<label class="radio">
+														<input type="radio" value="" name="optionsRadios6" class="grey" >
+														Incompleto
+													</label>
+												</div>
 											</div>
 
-											<div class="col-md-3">
+											<div class="form-group col-md-2">
 												<label class="radio">
 													<input type="radio" value="" name="optionsRadios7" class="grey" >
 													2º Grau (Médio)
 												</label>
-												<label class="radio">
-													<input type="radio" value="" name="optionsRadios6" class="grey" >
-													Completo
-												</label>
-												<label class="radio">
-													<input type="radio" value="" name="optionsRadios6" class="grey" >
-													Incompleto
-												</label>
+												<div class="radio-grau-ml">
+													<label class="radio">
+														<input type="radio" value="" name="optionsRadios6" class="grey" >
+														Completo
+													</label>
+													<label class="radio">
+														<input type="radio" value="" name="optionsRadios6" class="grey" >
+														Incompleto
+													</label>
+												</div>
 											</div>
 
-											<div class="col-md-3">
+											<div class="form-group col-md-3">
 												<label class="radio">
 													<input type="radio" value="" name="optionsRadios7" class="grey" >
 													Técnico
 												</label>
-												<label class="radio">
-													<input type="radio" value="" name="optionsRadios6" class="grey" >
-													Completo
-												</label>
-												<label class="radio">
-													<input type="radio" value="" name="optionsRadios6" class="grey" >
-													Incompleto
-												</label>
+												<div class="radio-grau-ml">
+													<label class="radio">
+														<input type="radio" value="" name="optionsRadios6" class="grey" >
+														Completo
+													</label>
+													<label class="radio">
+														<input type="radio" value="" name="optionsRadios6" class="grey" >
+														Incompleto
+													</label>
+												</div>
 
-												<div class="input-group">
+												<div class="form-group input-group" >
+													<span class="input-group-addon">Curso</span>
+													<input type="text" class="form-control">
+												</div>
+
+												<div class="form-group input-group" style="width: 1rem ;">
+													<span class="input-group-addon">Conclusão</span>
 													<input type="date" class="form-control">
-													<span class="input-group-addon">Data de conclusão</span>
 												</div>
 											
 											</div>
+
+											<div class="form-group col-md-3">
+													<label class="radio">
+														<input type="radio" value="" name="optionsRadios7" class="grey" >
+														Superior
+													</label>
+
+												<div class="radio-grau-ml">
+													<label class="radio">
+														<input type="radio" value="" name="optionsRadios6" class="grey" >
+														Completo
+													</label>
+													<label class="radio">
+														<input type="radio" value="" name="optionsRadios6" class="grey" >
+														Incompleto
+													</label>
+												</div>
+
+												<div class="form-group input-group" >
+													<span class="input-group-addon">Curso</span>
+													<input type="text" class="form-control">
+												</div>
+
+												<div class="form-group input-group" style="width: 1rem ;" >
+													<span class="input-group-addon">Conclusão</span>
+													<input type="date" class="form-control">
+												</div>
+
+												<div class="form-group input-group" >
+													<span class="input-group-addon">Nº Registro no Conselho</span>
+													<input type="text" class="form-control">
+												</div>
+
+											</div>
+
+										</div><!-- fim-col-12 -->
+
+										<!-- BLOCO 4 -->
+										<div class="form-group col-md-12  bg_form">
+											<p>Dados Contratuais</p>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group col-md-3">
+												<div class="input-group"  >
+													<span class="input-group-addon">Data de admissão</span>
+													<input type="date" class="form-control">
+												</div>
+											</div>
+											
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon">Função</span>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+
+											<div class="form-group col-md-4">
+												<div class="input-group">
+													<span class="input-group-addon">Atividades que irá realizadar</span>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+											
+											<div class="form-group col-md-2">
+												<div class="input-group">
+													<span class="input-group-addon">Departamento</span>
+													<input type="text" class="form-control">
+												</div>
+											</div>	
+										</div><!-- fim-col-12 -->
+
+										<div class="col-md-12">
+											<div class="col-md-4">
+												
+													<div class="form-group input-group">
+														<div class="input-group-addon">Salario combinado</div> 
+														<input id="text" name="text" type="text" class="form-control">
+													</div>
+												
+
+												<div class="form-group input-group">
+													<div class="input-group-addon">% sobre vendas</div> 
+													<input id="" name="" type="text" class="form-control"> 
+													<div class="input-group-addon">
+														<i class="fa fa-dollar"></i>
+													</div>
+												</div>
+											</div>
+											
+											<div class="col-md-2">
+												<span>Forma de pagamento</span><br>
+												<div class="form-group">
+													
+													<div class="radio">
+														<label class="radio">
+														<input type="radio" name="radio_pagamento" value="hora" class="grey">
+															p/ Hora
+														</label>
+													</div>
+
+													<div class="radio">
+														<label class="radio">
+														<input type="radio" name="radio_pagamento" value="mes" class="grey">
+															p/ Mês
+														</label>
+													</div>
+
+													<div class="radio">
+														<label class="radio">
+														<input type="radio" name="radio_pagamento" value="comissao" class="grey">
+															p/ Só comissão
+														</label>
+													</div>
+
+													<div class="radio">
+														<label class="radio">
+														<input type="radio" name="radio_pagamento" value="fixoComissao" class="grey">
+															Fixo + Comissão
+														</label>
+													</div>
+
+													<div class="radio">
+														<label class="radio">
+														<input type="radio" name="radio_pagamento" value="" class="grey">
+															Outros
+														</label>
+													</div>
+
+													<input id="text_pagamento" name="text_pagamento" placeholder="Especifique a opção 'Outros'" type="text" class="form-control">
+												</div>
+											</div>	
+													
+											
+											<div class="form-group col-md-6">
+												<div class="col-md-12">
+													<span>Prazo de experiência </span>
+													<label class="checkbox-inline">
+														<input type="checkbox" value="" class="grey">
+														Não terá Experiência
+													</label>
+												</div>
+													<div class="form-group col-md-6">
+														<div class="input-group">
+															<span class="input-group-addon">1º fase</span>
+															<input type="text">
+														</div>
+													</div>			
+													<div class="form-group col-md-6">
+														<div class="input-group">
+															<span class="input-group-addon">2º fase</span>
+															<input type="text">
+														</div>
+													</div>	
+													<span id="textHelpBlock" class="help-block"> <i class="fa fa-info-circle"></i> Informe a quantidade de dias em cada uma das fases se houver periodo de experiência.</span>		
+													<span id="textHelpBlock" class="help-block"> <i class="fa fa-info-circle"></i> OBS: controlar e nos informar <span class="text-uppercase text-danger"><strong>com 05 dias úteis</strong></span>  antes do venimento se a 1º fase será prorrogada ou não e se a 2º fase será rescindida ou não.</span>		
+											</div>
+											
+												
 										</div><!-- fim-col-12 -->
 
 										
