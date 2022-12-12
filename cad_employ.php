@@ -729,8 +729,7 @@ include 'header.php';
 													<div class="panel-heading">
 														<h4 class="panel-title center">
 														<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-															<i class="icon-arrow"></i>
-															Detalhes do Horario de trabalho
+														Ver mais detalhes +
 														</a></h4>
 													</div>
 													<div id="collapseOne" class="panel-collapse collapse">
@@ -1255,7 +1254,6 @@ include 'header.php';
 												<div class="panel-heading">
 													<h4 class="panel-title center">
 													<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-														<i class="icon-arrow"></i>
 														Ver mais detalhes +
 													</a></h4>
 												</div>
@@ -1641,34 +1639,9 @@ include 'header.php';
 												<div class="col-sm-6">
 													<div class="tabbable tabs-left">
 														<ul id="myTab3" class="nav nav-tabs tab-green">
-															<li class="active">
-																<a href="#panel_tab4_example1" data-toggle="tab">
-																	<i class="fa clip-libreoffice"></i>  Carteira de Trabalho - CTPS
-																</a>
-															</li>
 															<li class="">
 																<a href="#panel_tab4_example2" data-toggle="tab">
 																	<i class="fa clip-libreoffice"></i> Foto recente 3x4
-																</a>
-															</li>
-															<li class="">
-																<a href="#panel_tab4_example3" data-toggle="tab">
-																	<i class="fa clip-libreoffice"></i> Comprovante de Endereço atual
-																</a>
-															</li>
-															<li class="">
-																<a href="#panel_tab4_example4" data-toggle="tab">
-																	<i class="fa clip-libreoffice"></i> Título de eleitor
-																</a>
-															</li>
-															<li class="">
-																<a href="#panel_tab4_example5" data-toggle="tab">
-																	<i class="fa clip-libreoffice"></i> Certificado de reservista
-																</a>
-															</li>
-															<li class="">
-																<a href="#panel_tab4_example6" data-toggle="tab">
-																	<i class="fa clip-libreoffice"></i> Certidão de Casamento
 																</a>
 															</li>
 															<li class="">
@@ -1679,6 +1652,31 @@ include 'header.php';
 															<li class="">
 																<a href="#panel_tab4_example8" data-toggle="tab">
 																	<i class="fa clip-libreoffice"></i> CPF
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example3" data-toggle="tab">
+																	<i class="fa clip-libreoffice"></i> Comprovante de Endereço atual
+																</a>
+															</li>
+															<li class="active">
+																<a href="#panel_tab4_example1" data-toggle="tab">
+																	<i class="fa clip-libreoffice"></i>  Carteira de Trabalho - CTPS
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example4" data-toggle="tab">
+																	<i class="fa clip-libreoffice"></i> Título de eleitor
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example5" data-toggle="tab">
+																	<i class="fa clip-libreoffice"></i> Certificado Militar
+																</a>
+															</li>
+															<li class="">
+																<a href="#panel_tab4_example6" data-toggle="tab">
+																	<i class="fa clip-libreoffice"></i> Certidão de Casamento
 																</a>
 															</li>
 														</ul>
@@ -1703,74 +1701,40 @@ include 'header.php';
 															</div>
 															<div class="tab-pane" id="panel_tab4_example2">
 																<div class="form-group col-md-12">
-																		<label>
-																			Foto
-																		</label>
-																		<div data-provides="fileupload" class="fileupload fileupload-new">
-																			<span class="btn btn-file btn-light-grey"><i class="fa fa-folder-open-o"></i> <span class="fileupload-new">Select file</span><span class="fileupload-exists">Change</span>
-																				<input type="file">
-																			</span>
-																			<span class="fileupload-preview"></span>
-																			<a style="float: none" data-dismiss="fileupload" class="close fileupload-exists" href="#">
-																				&times;
-																			</a>
-																		</div>
-																		<span class="help-block">
-																			Example block-level help text here.
-																		</span>
+																	<input class="" type="file" id="formFileMultiple" multiple>
 																</div><!-- fim-col-12 -->
 															</div>
 															<div class="tab-pane" id="panel_tab4_example3">
 																<div class="form-group col-md-12">
-																		<label>
-																			Comprovante endereço
-																		</label>
-																		<div data-provides="fileupload" class="fileupload fileupload-new">
-																			<span class="btn btn-file btn-light-grey"><i class="fa fa-folder-open-o"></i> <span class="fileupload-new">Select file</span><span class="fileupload-exists">Change</span>
-																				<input type="file">
-																			</span>
-																			<span class="fileupload-preview"></span>
-																			<a style="float: none" data-dismiss="fileupload" class="close fileupload-exists" href="#">
-																				&times;
-																			</a>
-																		</div>
-																		<span class="help-block">
-																			Example block-level help text here.
-																		</span>
+																		<label for="address" class="label label-gray">Endereço</label>
+																		<input class="form-control" type="text" name="" id="address">
+																</div>
+																<div class="form-group col-md-12">
+																		<label for="number_address" class="label label-gray">Número</label>
+																		<input class="form-control" type="text" name="" id="number_address">
+																</div>
+																<div class="form-group col-md-12">
+																		<label for="CEP_address" class="label label-gray">CEP</label>
+																		<input class="form-control" type="text" name="" id="CEP_address">
 																</div>
 															</div>
 															<div class="tab-pane" id="panel_tab4_example4">
 																<div class="col-md-12">
 																	<div class="form-group col-md-12">
 																		<div class="input-group">
-																			<span class="input-group-addon">Titulo Eleitor</span>
-																			<input class="form-control" type="text" id="Nome">
+																			<label for="eleitor_title" class="label label-gray">Número Título</label>
+																			<input class="form-control" type="text" id="eleitor_title">
 																		</div>
 																	</div>
-
-																	<div class="form-group col-md-12">
-																		<div class="input-group">
-																			<span class="input-group-addon">Titulo Eleitor</span>
-																			<input class="form-control" type="text" id="Nome">
-																		</div>
-																	</div>
-
 																</div><!-- fim-col-12 -->
 															</div>
 															<div class="tab-pane" id="panel_tab4_example5">
 																<div class="col-md-12">
 																	<div class="form-group col-md-12">
-																		<div class="input-group">
-																			<span class="input-group-addon">Reservista</span>
-																			<input class="form-control" type="text" id="Nome">
-																		</div>
-																	</div>
-
-																	<div class="form-group col-md-12">
-																		<div class="input-group">
-																			<span class="input-group-addon">Reservista</span>
-																			<input class="form-control" type="text" id="Nome">
-																		</div>
+																		
+																			<label for="number_militar" class="label label-gray">Número Certificado</label>
+																			<input class="form-control" type="text" id="number_militar">
+																		
 																	</div>
 
 																</div><!-- fim-col-12 -->
@@ -1796,17 +1760,58 @@ include 'header.php';
 															<div class="tab-pane" id="panel_tab4_example7">
 																<div class="col-md-12">
 																	<div class="form-group col-md-12">
-																		<div class="input-group">
-																			<span class="input-group-addon">Número RG</span>
-																			<input class="form-control" type="text" id="Nome">
-																		</div>
+																		
+																			<label for="rg" class="label label-gray">Número RG</label>
+																			<input class="form-control" type="text" id="rg">
+																			
 																	</div>
-
 																	<div class="form-group col-md-12">
-																		<div class="input-group">
-																			<span class="input-group-addon">Data de emissão</span>
-																			<input class="form-control" type="text" id="Nome">
-																		</div>
+																		
+																			<label for="date_exp" class="label label-gray">Data de expedição</label>
+																			<input class="form-control" type="text" id="date_exp">
+																			
+																	</div>
+																	<div class="form-group col-md-12">
+																		
+																			<label for="name_rg" class="label label-gray">Nome</label>
+																			<input class="form-control" type="text" id="name_rg">
+																			
+																	</div>
+																	<div class="form-group col-md-12">
+																		
+																			<label for="father_name" class="label label-gray">Nome do pai</label>
+																			<input class="form-control" type="text" id="father_name">
+																			
+																	</div>
+																	<div class="form-group col-md-12">
+																		
+																			<label for="mother_name" class="label label-gray">Nome da mãe</label>
+																			<input class="form-control" type="text" id="mother_name">
+																			
+																	</div>
+																	<div class="form-group col-md-12">
+																		
+																			<label for="birthdate_rg" class="label label-gray">Nascimento</label>
+																			<input class="form-control" type="text" id="birthdate_rg">
+																			
+																	</div>
+																	<div class="form-group col-md-12">
+																		
+																			<label for="organ_exp" class="label label-gray">Orgão expedidor</label>
+																			<input class="form-control" type="text" id="organ_exp">
+																			
+																	</div>
+																	<div class="form-group col-md-12">
+																		
+																			<label for="naturalness_rg" class="label label-gray">Naturalidade</label>
+																			<input class="form-control" type="text" id="naturalness_rg">
+																			
+																	</div>
+																	<div class="form-group col-md-12">
+																		
+																			<label for="state_rg" class="label label-gray">Estado</label>
+																			<input class="form-control" type="text" id="state_rg">
+																			
 																	</div>
 
 																</div><!-- fim-col-12 -->
@@ -1814,19 +1819,10 @@ include 'header.php';
 															<div class="tab-pane" id="panel_tab4_example8">
 																<div class="col-md-12">
 																	<div class="form-group col-md-12">
-																		<div class="input-group">
-																			<span class="input-group-addon">CPF</span>
-																			<input class="form-control" type="text" id="Nome">
-																		</div>
+																			
+																			<label for="cpf_number" class="label label-gray">Número CPF</label>
+																			<input class="form-control" type="text" id="cpf_number">
 																	</div>
-
-																	<div class="form-group col-md-12">
-																		<div class="input-group">
-																			<span class="input-group-addon">Data de emissão</span>
-																			<input class="form-control" type="text" id="Nome">
-																		</div>
-																	</div>
-
 																</div><!-- fim-col-12 -->
 															</div>
 														</div>
@@ -2024,18 +2020,10 @@ include 'header.php';
 																<div class="col-md-12">
 																	<div class="form-group col-md-12">
 																		<div class="input-group">
-																			<span class="input-group-addon">SUS</span>
-																			<input class="form-control" type="text" id="Nome">
+																			<label for="sus_number" class="label label-gray">Número</label>
+																			<input class="form-control" type="text" id="sus_number">
 																		</div>
 																	</div>
-
-																	<div class="form-group col-md-12">
-																		<div class="input-group">
-																			<span class="input-group-addon">SUS</span>
-																			<input class="form-control" type="text" id="Nome">
-																		</div>
-																	</div>
-
 																</div><!-- fim-col-12 -->
 															</div>
 															<div class="tab-pane" id="panel_tab4_example15">

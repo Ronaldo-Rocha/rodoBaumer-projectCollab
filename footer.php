@@ -89,7 +89,7 @@
 		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
 
 		<!-- JAVASCRIPTS PAGINA DE TABELAS -->
-		<script type="text/javascript" src="assets/plugins/bootbox/bootbox.min.js"></script>
+		<!-- <script type="text/javascript" src="assets/plugins/bootbox/bootbox.min.js"></script> -->
 		<script type="text/javascript" src="assets/plugins/jquery-mockjax/jquery.mockjax.js"></script>
 		<script type="text/javascript" src="assets/plugins/select2/select2.min.js"></script>
 		<script type="text/javascript" src="assets/plugins/DataTables/media/js/jquery.dataTables.min.js"></script>
@@ -97,10 +97,16 @@
 		<script src="assets/js/table-data.js"></script>
 		<!-- end: JAVASCRIPTS PAGINA DE TABELAS -->
 
+		<!-- JAVASCRIPTS REQUIRED cad_employ -->
+		<script src="assets/plugins/dropzone/downloads/dropzone.min.js"></script>
+		<script src="assets/js/form-dropzone.js"></script>
+		<!-- end: JAVASCRIPTS PAGINA DE TABELAS -->
+
 		<script>
 			jQuery(document).ready(function() {
 				Main.init();
 				TableData.init();
+				Dropzone.init();
 			});
 		</script>
 	</body>

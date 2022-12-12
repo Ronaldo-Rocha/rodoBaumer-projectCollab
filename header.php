@@ -43,9 +43,15 @@
 		<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome-ie7.min.css">
 		<![endif]-->
 		<!-- end: MAIN CSS -->
+
 		<!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
 		<link rel="stylesheet" href="assets/plugins/fullcalendar/fullcalendar/fullcalendar.css">
 		<!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
+		
+		<!-- start: CSS REQUIRED FOR DROPZONE cad_employ PAGE -->
+		<link rel="stylesheet" href="assets/plugins/dropzone/downloads/css/dropzone.css">
+		<!-- start: CSS REQUIRED FOR DROPZONE cad_employ PAGE -->
+
 		
 	</head>
 	<!-- end: HEAD -->
@@ -139,6 +145,20 @@
 								<li>
 									<a href="list_employ.php">
 										<span class="title">Funcionários </span>
+									</a>
+								</li>
+							</ul>
+							<ul class="sub-menu">
+								<li>
+									<a href="list_station.php">
+										<span class="title">Postos </span>
+									</a>
+								</li>
+							</ul>
+							<ul class="sub-menu">
+								<li>
+									<a href="list_gasStation.php">
+										<span class="title">Abastecimento </span>
 									</a>
 								</li>
 							</ul>
