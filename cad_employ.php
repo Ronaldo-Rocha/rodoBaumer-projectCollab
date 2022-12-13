@@ -324,9 +324,10 @@ include 'header.php';
 										<div class="col-md-12">
 											<div class="form-group col-md-3">
 												<div class="input-group">
-													<span class="input-group-addon">Data Casamento / União</span>
+													<span class="input-group-addon">Data Casamento</span>
 													<input type="date" name="" id="" class="form-control">
 												</div>
+												<span class="help-block"><i class="fa fa-info-circle"></i> insira a data caso seja <b>união estável</b>.</span>
 											</div>
 
 											<div class="form-group col-md-6">
@@ -338,11 +339,11 @@ include 'header.php';
 
 											<div class="form-group col-md-3">
 												<label class="radio-inline">
-												<input type="radio" value="" name="optionsRadios2" class="grey" >
+												<input type="radio" value="" name="optionsRadios2" class="grey form-control" >
 													Cônjuge
 												</label>
 												<label class="radio-inline">
-													<input type="radio" value="" name="optionsRadios2" class="grey" >
+													<input type="radio" value="" name="optionsRadios2" class="grey form-control" >
 													Companheiro(a)
 												</label>
 											</div>

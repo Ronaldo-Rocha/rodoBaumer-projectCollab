@@ -37,7 +37,7 @@ include 'header.php';
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<i class="fa fa-external-link-square"></i>
-						Tabela de Postos
+						Tabela de Abastecimentos
 						<div class="panel-tools">
 							<a class="btn btn-xs btn-green tooltips" href="cad_gasStation.php" data-original-title="Adicionar Abastecimento" data-placement="top"><i class="fa fa-plus"></i></a>
 							<a class="btn btn-xs btn-link panel-collapse collapses" href="#"></a>

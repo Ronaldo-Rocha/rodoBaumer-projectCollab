@@ -65,27 +65,20 @@ include 'header.php';
 
 											<div class="form-group col-md-3">
 												<div class="input-group">
-													<span class="input-group-addon" for="nome_posto">Nome do Posto</span>
-													<input class="form-control" type="text" id="nome_posto">
+													<span class="input-group-addon">Litros abastecido</span>
+													<input class="form-control" type="text" id="litro_abas">
 												</div>
 											</div>
 
 											<div class="form-group col-md-3">
 												<div class="input-group">
-													<span class="input-group-addon">Endereço</span>
-													<input class="form-control" type="text" id="contratante">
-												</div>
-											</div>
-											
-											<div class="form-group col-md-3">
-												<div class="input-group">
-													<span class="input-group-addon" for="numero_posto">número</span>
-													<input class="form-control" type="text" id="numero_posto">
+													<span class="input-group-addon">Valor do litro</span>
+													<input class="form-control" type="text" id="">
 												</div>
 											</div>
 
 											<div class="form-group col-md-3">
-											<div class="input-group">
+												<div class="input-group">
 													<span class="input-group-addon">Tipo de Combustível</span>
 													<select class="custom-select form-control" id="selectCustom">
 														<option selected>Selecionar...</option>
@@ -99,6 +92,14 @@ include 'header.php';
 														<option value="8">Diesel</option>
 													</select>
 												</div>
+											</div>
+											
+											<div class="form-group col-md-3">
+												<div class="input-group">
+													<span class="input-group-addon" for="numero_posto">Nota</span>
+													<input class="form-control" type="file" id="numero_posto">
+												</div>
+												<span class="help-block"><i class="fa fa-info-circle"></i> anexe a nota fiscal gerada no abastecimento.</span>
 											</div>
 										</div>
 										<!-- FIM BLOCO 1 -->
