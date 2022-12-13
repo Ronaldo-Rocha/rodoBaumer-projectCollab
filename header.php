@@ -162,6 +162,15 @@
 									</a>
 								</li>
 							</ul>
+
+							<ul class="sub-menu">
+								<li>
+									<a href="list_truck.php">
+										<span class="title">Caminhões </span>
+									</a>
+								</li>
+							</ul>
+
 						</li>
 						<li class="">
 							<a href="list_users.php"><i class="fa fa-users"></i>
