@@ -10,7 +10,13 @@
 			</div>
 			<div class="footer-items">
 				<span class="go-top"><i class="clip-chevron-up"></i></span>
+
 			</div>
+			<div class="footer-items" style="padding-right: 5px; padding-top: 5px;">
+			 <a href="utility_faq.php"><span class="well well-sm text-info"> <b>AJUDA </b><span class="badge badge-info"> ?</span></span></a>
+
+			</div>
+			
 		</div>
 		<!-- end: FOOTER -->
 		<!-- start: RIGHT SIDEBAR -->
